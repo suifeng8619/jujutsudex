@@ -1,4 +1,10 @@
 import { Navbar } from '@/components/shared/Navbar';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Jujutsu Infinite Traits - CE Natures & Buffs',
+    description: 'Complete guide to all traits and cursed energy natures in Jujutsu Infinite. Discover trait rarities, buffs, and combat effects.',
+};
 
 export default function PlaceholderPage() {
     return (

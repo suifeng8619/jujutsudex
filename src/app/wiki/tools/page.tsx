@@ -1,4 +1,10 @@
 import { Navbar } from '@/components/shared/Navbar';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Jujutsu Infinite Cursed Tools - Weapons & Special Grade Items',
+    description: 'Browse all cursed tools and weapons in Jujutsu Infinite. Stats, grades, and abilities for Playful Cloud, Inverted Spear, and more.',
+};
 
 export default function PlaceholderPage() {
     return (

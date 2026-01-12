@@ -1,4 +1,10 @@
 import { Navbar } from '@/components/shared/Navbar';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Jujutsu Infinite Awakenings - Modes & Transformations',
+    description: 'Discover all awakenings and transformation modes in Jujutsu Infinite. Learn about awakening chances, buffs, and special abilities.',
+};
 
 export default function PlaceholderPage() {
     return (

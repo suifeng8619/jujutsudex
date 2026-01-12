@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://jujutsudex.com/sitemap.xml
+
+# Disallow admin or unnecessary paths
+Disallow: /api/
+Disallow: /_next/
