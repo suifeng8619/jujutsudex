@@ -1,0 +1,88 @@
+[
+  {
+    "id": "happy_2026",
+    "code": "HAPPY_2026",
+    "reward": "100 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-12",
+    "isNew": true
+  },
+  {
+    "id": "soul_king_out",
+    "code": "SOUL_KING_OUT",
+    "reward": "100 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-12",
+    "isNew": true
+  },
+  {
+    "id": "exchange_soon",
+    "code": "EXCHANGE_SOON",
+    "reward": "400 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-12",
+    "isNew": false
+  },
+  {
+    "id": "95_percent",
+    "code": "95_PERCENT",
+    "reward": "50 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-12",
+    "isNew": false
+  },
+  {
+    "id": "exchange_out",
+    "code": "EXCHANGE_OUT",
+    "reward": "100 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-12",
+    "isNew": false
+  },
+  {
+    "id": "exchange_20k",
+    "code": "EXCHANGE_20K",
+    "reward": "400 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-12",
+    "isNew": false
+  },
+  {
+    "id": "soulking_20k",
+    "code": "SOULKING_20K",
+    "reward": "400 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-12",
+    "isNew": false
+  },
+  {
+    "id": "2025_christmas",
+    "code": "2025_CHRISTMAS",
+    "reward": "400 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-12",
+    "isNew": false
+  },
+  {
+    "id": "20kwinter",
+    "code": "20KWINTER",
+    "reward": "400 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-12",
+    "isNew": false
+  },
+  {
+    "id": "its_december",
+    "code": "ITS_DECEMBER",
+    "reward": "50 Spins",
+    "status": "expired",
+    "lastChecked": "2026-01-01"
+  },
+  {
+    "id": "happy_thanksgiving",
+    "code": "HAPPY_THANKSGIVING",
+    "reward": "100 Spins",
+    "status": "expired",
+    "lastChecked": "2025-11-30"
+  }
+]

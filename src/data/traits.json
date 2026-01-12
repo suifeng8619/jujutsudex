@@ -1,0 +1,59 @@
+[
+    {
+        "id": "rough-energy",
+        "name": "Rough Energy (Hakari)",
+        "rarity": "Legendary",
+        "chance": "10%",
+        "description": "Cursed energy with a rough, sandpaper-like texture. Cuts opponents on contact.",
+        "stats": {
+            "Effect": "Passive Damage on Hit",
+            "Trait": "Painful Contact"
+        },
+        "image": "/images/traits/rough.png"
+    },
+    {
+        "id": "electric-energy",
+        "name": "Electric Energy (Kashimo)",
+        "rarity": "Legendary",
+        "chance": "10%",
+        "description": "Cursed energy with properties of electricity. Can stun opponents.",
+        "stats": {
+            "Effect": "Stun / Paralysis",
+            "Trait": "Lightning Discharge"
+        },
+        "image": "/images/traits/electric.png"
+    },
+    {
+        "id": "corrosive-energy",
+        "name": "Corrosive Energy",
+        "rarity": "Rare",
+        "chance": "20%",
+        "description": "Energy that corrodes defenses over time.",
+        "stats": {
+            "Effect": "Armor Break / DoT"
+        },
+        "image": "/images/traits/corrosive.png"
+    },
+    {
+        "id": "toxic-energy",
+        "name": "Toxic Energy",
+        "rarity": "Rare",
+        "chance": "20%",
+        "description": "Poisonous energy that sickens enemies.",
+        "stats": {
+            "Effect": "Poison Damage"
+        },
+        "image": "/images/traits/toxic.png"
+    },
+    {
+        "id": "dense-energy",
+        "name": "Dense Energy",
+        "rarity": "Common",
+        "chance": "70%",
+        "description": "Heavier, more impact-focused energy.",
+        "stats": {
+            "Buff": "+Damage to M1"
+        },
+        "image": "/images/traits/dense.png"
+    }
+]

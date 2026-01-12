@@ -1,0 +1,104 @@
+[
+    {
+        "id": "inverted-spear",
+        "name": "Inverted Spear of Heaven",
+        "grade": "Special Grade",
+        "source": "Curse Market / Drop",
+        "value": "15 Fingers",
+        "description": "A legendary tool that forces the stoppage of any innate technique.",
+        "stats": {
+            "Passive": "Nullify (Bypass iFrames)",
+            "Buff": "+5% M1/Crit DMG"
+        },
+        "moves": [
+            "Spear",
+            "Sever",
+            "Throat Gouge"
+        ],
+        "image": "/images/tools/inverted-spear.png"
+    },
+    {
+        "id": "playful-cloud",
+        "name": "Playful Cloud",
+        "grade": "Special Grade",
+        "source": "Sorcerer Killer Raid / Craft",
+        "value": "100 Chains",
+        "description": "A three-section staff that embodies pure physical force.",
+        "stats": {
+            "Type": "Pure Strength",
+            "Effect": "Guard Break"
+        },
+        "moves": [
+            "Playful Strike",
+            "Chained Dropkick"
+        ],
+        "image": "/images/tools/playful-cloud.png"
+    },
+    {
+        "id": "executioner-sword",
+        "name": "Executioner's Sword",
+        "grade": "Special Grade",
+        "source": "Judgeman Domain (RPS Win)",
+        "value": "N/A",
+        "description": "A sword that kills anyone it cuts without fail.",
+        "stats": {
+            "Effect": "One Shot Kill",
+            "Condition": "Domain Win"
+        },
+        "moves": [
+            "Death Sentence",
+            "Judgement"
+        ],
+        "image": "/images/tools/executioner-sword.png"
+    },
+    {
+        "id": "split-soul",
+        "name": "Split Soul Katana",
+        "grade": "Special Grade",
+        "source": "Soul Curse Raid",
+        "value": "100 Transfigured Humans",
+        "description": "A blade that cuts directly at the soul.",
+        "stats": {
+            "Effect": "Soul Damage",
+            "Bypass": "Durability"
+        },
+        "moves": [
+            "Soul Slice",
+            "Soul Stream"
+        ],
+        "image": "/images/tools/split-soul.png"
+    },
+    {
+        "id": "dragon-bone",
+        "name": "Dragon Bone",
+        "grade": "Special Grade",
+        "source": "Cursed School Chest",
+        "value": "200 Keys",
+        "description": "A thick blade that stores and releases kinetic energy.",
+        "stats": {
+            "Active": "Kinetic Charge",
+            "Effect": "Explosive DMG"
+        },
+        "moves": [
+            "Ambush",
+            "Energy Dispell"
+        ],
+        "image": "/images/tools/dragon-bone.png"
+    },
+    {
+        "id": "slaughter-demon",
+        "name": "Slaughter Demon",
+        "grade": "Uncommon",
+        "source": "Grade 3 / Clan Head",
+        "value": "Free",
+        "description": "A dagger infused with cursed energy.",
+        "stats": {
+            "Buff": "+5% DMG, +10% Speed"
+        },
+        "moves": [
+            "Slide Slice",
+            "Demon Chop"
+        ],
+        "image": "/images/tools/slaughter-demon.png"
+    }
+]

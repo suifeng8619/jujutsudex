@@ -1,0 +1,73 @@
+[
+    {
+        "id": "black-flash-arms",
+        "name": "Black Flash Arms",
+        "rarity": "Legendary",
+        "chance": "10%",
+        "description": "Arms imbued with the spatial distortion of Black Flash. Boosts damage significantly.",
+        "stats": {
+            "Buff": "+8% Black Flash DMG",
+            "Effect": "Black Sparks Visuals"
+        },
+        "image": "/images/awakenings/black-flash.png"
+    },
+    {
+        "id": "burn-scars",
+        "name": "Burn Scars",
+        "rarity": "Legendary",
+        "chance": "10%",
+        "description": "Scars from a past battle. Grants enhanced senses and agility.",
+        "stats": {
+            "Passive": "Curse Vision",
+            "Buff": "Increased Dash/Jump",
+            "Utility": "See Domain Expansions"
+        },
+        "image": "/images/awakenings/burn-scars.png"
+    },
+    {
+        "id": "energy-halo",
+        "name": "Energy Halo",
+        "rarity": "Rare",
+        "chance": "20%",
+        "description": "A halo of concentrated cursed energy.",
+        "stats": {
+            "Buff": "+10% Divergent Fist DMG",
+            "Visual": "Head Halo"
+        },
+        "image": "/images/awakenings/halo.png"
+    },
+    {
+        "id": "steel-arms",
+        "name": "Steel Arms",
+        "rarity": "Rare",
+        "chance": "20%",
+        "description": "Arms hardened like steel for weapon usage.",
+        "stats": {
+            "Buff": "+5% Cursed Tool DMG",
+            "Defense": "Small reduction"
+        },
+        "image": "/images/awakenings/steel-arms.png"
+    },
+    {
+        "id": "flesh-arms",
+        "name": "Flesh Arms",
+        "rarity": "Common",
+        "chance": "70%",
+        "description": "Mutated arms that pack a punch against curses.",
+        "stats": {
+            "Buff": "+20% PvE Damage"
+        },
+        "image": "/images/awakenings/flesh-arms.png"
+    },
+    {
+        "id": "energy-horns",
+        "name": "Energy Horns",
+        "rarity": "Common",
+        "chance": "70%",
+        "description": "Horns formed from leaking cursed energy.",
+        "stats": {
+            "Buff": "+20% Focus Gain"
+        },
+        "image": "/images/awakenings/horns.png"
+    }
+]

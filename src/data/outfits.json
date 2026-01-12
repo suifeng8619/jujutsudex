@@ -1,0 +1,57 @@
+[
+    {
+        "id": "sorcerer-killer-set",
+        "name": "Sorcerer Killer Set",
+        "rarity": "Special Grade",
+        "description": "The outfit worn by Toji Fushiguro. Enhances physical prowess to the limit.",
+        "stats": {
+            "Strength": "+25%",
+            "Speed": "+20%",
+            "Defense": "+10%"
+        },
+        "image": "/images/clans/toji.png"
+    },
+    {
+        "id": "heian-era-robe",
+        "name": "Heian Era Robe",
+        "rarity": "Special Grade",
+        "description": "Ancient robes from the golden age of Jujutsu.",
+        "stats": {
+            "Technique": "+20%",
+            "CE Cap": "+30%"
+        },
+        "image": "/images/clans/sukuna.png"
+    },
+    {
+        "id": "ocean-blue-sailor",
+        "name": "Ocean Blue Sailor Vest",
+        "rarity": "Legendary",
+        "description": "A stylish vest resembling Riko Amanai's uniform.",
+        "stats": {
+            "Regen": "+15%",
+            "Agility": "+10%"
+        },
+        "image": "/images/clans/star-rage.png"
+    },
+    {
+        "id": "magma-jacket",
+        "name": "Magma Jacket",
+        "rarity": "Legendary",
+        "description": "A jacket radiating intense heat.",
+        "stats": {
+            "Fire DMG": "+10%",
+            "Defense": "+15%"
+        },
+        "image": "/images/clans/volcano.png"
+    },
+    {
+        "id": "high-school-uniform",
+        "name": "Jujutsu High Uniform",
+        "rarity": "Common",
+        "description": "Standard issue uniform for students.",
+        "stats": {
+            "EXP Gain": "+5%"
+        },
+        "image": "/images/clans/gojo.png"
+    }
+]

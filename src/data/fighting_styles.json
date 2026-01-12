@@ -1,0 +1,53 @@
+[
+    {
+        "id": "eagle-style",
+        "name": "Eagle Style",
+        "tree": "Strength",
+        "rarity": "Unlockable",
+        "description": "A martial art focusing on fast, precise kicks to close distance.",
+        "moves": [
+            "Flash Kick",
+            "Eagle Dive",
+            "Talon Strike"
+        ],
+        "stats": {
+            "Type": "Martial Art",
+            "Focus": "Mobility / Combo"
+        },
+        "image": "/images/awakenings/black-flash.png"
+    },
+    {
+        "id": "taido",
+        "name": "Taido Martial Arts",
+        "tree": "Strength",
+        "rarity": "Unlockable",
+        "description": "Yuji's signature style. Uses full body rotation for heavy impacts.",
+        "moves": [
+            "Manji Kick",
+            "Knee Release",
+            "Divergent Fist (Imbued)"
+        ],
+        "stats": {
+            "Type": "Martial Art",
+            "Focus": "Heavy Strikes"
+        },
+        "image": "/images/clans/boogie-woogie.png"
+    },
+    {
+        "id": "judo",
+        "name": "Judo / Grappling",
+        "tree": "Strength",
+        "rarity": "Unlockable",
+        "description": "Defensive grappling style focusing on throws and counters.",
+        "moves": [
+            "Shoulder Throw",
+            "Counter Grip",
+            "Ground Slam"
+        ],
+        "stats": {
+            "Type": "Martial Art",
+            "Focus": "Defense / Control"
+        },
+        "image": "/images/clans/muscle.png"
+    }
+]

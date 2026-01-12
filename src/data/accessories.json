@@ -1,0 +1,71 @@
+[
+    {
+        "id": "soul-ring",
+        "name": "Soul Ring",
+        "type": "Ring",
+        "rarity": "Special Grade",
+        "description": "A ring that resonates with the soul. Boosts all cursed energy output.",
+        "stats": {
+            "Buff": "+15% CE Output",
+            "Effect": "Soul Resonance"
+        },
+        "image": "/images/tools/split-soul.png"
+    },
+    {
+        "id": "molten-ring",
+        "name": "Molten Ring",
+        "type": "Ring",
+        "rarity": "Legendary",
+        "description": "A ring forged in the heart of a volcano.",
+        "stats": {
+            "Buff": "+10% Fire DMG",
+            "Effect": "Burn on Hit"
+        },
+        "image": "/images/clans/volcano.png"
+    },
+    {
+        "id": "jade-wrist-beads",
+        "name": "Jade Wrist Beads",
+        "type": "Accessory",
+        "rarity": "Legendary",
+        "description": "Beads that calm the spirit and focus energy.",
+        "stats": {
+            "Buff": "+20% Focus Regen"
+        },
+        "image": "/images/traits/dense.png"
+    },
+    {
+        "id": "ninja-headband",
+        "name": "Ninja Headband",
+        "type": "Headgear",
+        "rarity": "Rare",
+        "description": "Increases agility and movement speed.",
+        "stats": {
+            "Buff": "+15% Speed",
+            "Passive": "Quiet Steps"
+        },
+        "image": "/images/awakenings/burn-scars.png"
+    },
+    {
+        "id": "tactful-ring",
+        "name": "Tactful Ring",
+        "type": "Ring",
+        "rarity": "Rare",
+        "description": "A simple ring that enhances technique precision.",
+        "stats": {
+            "Buff": "+5% Technique DMG"
+        },
+        "image": "/images/clans/construction.png"
+    },
+    {
+        "id": "silver-ring",
+        "name": "Silver Ring",
+        "type": "Ring",
+        "rarity": "Common",
+        "description": "Standard silver ring possessed by many sorcerers.",
+        "stats": {
+            "Buff": "+2% CE Cap"
+        },
+        "image": "/images/tools/executioner-sword.png"
+    }
+]

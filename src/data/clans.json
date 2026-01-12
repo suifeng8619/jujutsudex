@@ -1,0 +1,398 @@
+[
+    {
+        "id": "ryomen-sukuna",
+        "name": "Demon Vessel (Sukuna)",
+        "rarity": 0.01,
+        "tier": "S+",
+        "description": "The King of Curses. Grants immense physical strength and the ability to dismantle opponents.",
+        "grade": "Special Grade",
+        "image": "/images/clans/sukuna.png",
+        "stats": {
+            "Type": "Special Grade",
+            "Domain": "Malevolent Shrine",
+            "Attribute": "Slash"
+        },
+        "moves": [
+            "Dismantle",
+            "Cleave",
+            "Fire Arrow (Fuga)",
+            "Malevolent Shrine"
+        ]
+    },
+    {
+        "id": "gojo-satoru",
+        "name": "Limitless (Gojo)",
+        "rarity": 0.01,
+        "tier": "S+",
+        "description": "The strongest sorcerer's technique. Manipulate space at an atomic level with the Six Eyes.",
+        "grade": "Special Grade",
+        "image": "/images/clans/gojo.png",
+        "stats": {
+            "Type": "Special Grade",
+            "Domain": "Unlimited Void",
+            "Passive": "Infinity"
+        },
+        "moves": [
+            "Lapse: Blue",
+            "Reversal: Red",
+            "Hollow Purple",
+            "Unlimited Void"
+        ]
+    },
+    {
+        "id": "star-rage",
+        "name": "Star Rage (Yuki)",
+        "rarity": 0.1,
+        "tier": "S+",
+        "description": "Virtual Mass manipulation. Punch with the weight of a black hole.",
+        "grade": "Special Grade",
+        "image": "/images/clans/star-rage.png",
+        "stats": {
+            "Type": "Special Grade",
+            "Damage": "Extreme",
+            "Range": "Melee/Mid"
+        },
+        "moves": [
+            "Garuda Ball",
+            "Mass Punch",
+            "Black Hole"
+        ]
+    },
+    {
+        "id": "ten-shadows",
+        "name": "Ten Shadows (Megumi)",
+        "rarity": 1.0,
+        "tier": "S",
+        "description": "Summon ten different shikigami using shadows as a medium. The versatile Zenin technique.",
+        "grade": "Special Grade",
+        "image": "/images/clans/ten-shadows.png",
+        "stats": {
+            "Type": "Legendary",
+            "Summons": "10",
+            "Trump Card": "Mahoraga"
+        },
+        "moves": [
+            "Divine Dogs",
+            "Nue",
+            "Max Elephant",
+            "General Mahoraga"
+        ]
+    },
+    {
+        "id": "heavenly-restriction",
+        "name": "Heavenly Restriction (Toji)",
+        "rarity": 0.5,
+        "tier": "S+",
+        "description": "Zero cursed energy in exchange for superhuman physical prowess. The Sorcerer Killer.",
+        "grade": "Special Grade",
+        "image": "/images/clans/toji.png",
+        "stats": {
+            "Type": "Restricted",
+            "Speed": "Godlike",
+            "Weapon": "Split Soul Katana"
+        },
+        "moves": [
+            "Chain of a Thousand Miles",
+            "Inverted Spear",
+            "Playful Cloud"
+        ]
+    },
+    {
+        "id": "volcano",
+        "name": "Volcano (Jogo)",
+        "rarity": 0.25,
+        "tier": "A",
+        "description": "Explosive firepower from the Cursed Spirit of the Earth.",
+        "grade": "Special Grade",
+        "image": "/images/clans/volcano.png",
+        "stats": {
+            "Type": "Special Grade",
+            "Element": "Fire",
+            "Domain": "Coffin of the Iron Mountain"
+        },
+        "moves": [
+            "Disaster Flames",
+            "Maximum: Meteor",
+            "Ember Insects"
+        ]
+    },
+    {
+        "id": "gambler",
+        "name": "Gambler (Hakari)",
+        "rarity": 0.25,
+        "tier": "S",
+        "description": "A domain-focused technique based on probability and pachinko.",
+        "grade": "Special Grade",
+        "image": "/images/clans/gambler.png",
+        "stats": {
+            "Type": "Special Grade",
+            "Domain": "Idle Death Gamble",
+            "Buff": "Infinite CE"
+        },
+        "moves": [
+            "Train Doors",
+            "Jackpot",
+            "Immortal Mode"
+        ]
+    },
+    {
+        "id": "curse-queen",
+        "name": "Curse Queen (Rika)",
+        "rarity": 0.25,
+        "tier": "S",
+        "description": "Summon the Queen of Curses to fight alongside you. Grants massive CE reserves.",
+        "grade": "Special Grade",
+        "image": "/images/clans/curse-queen.png",
+        "stats": {
+            "Type": "Special Grade",
+            "Summon": "Rika",
+            "Buff": "Copy Technique"
+        },
+        "moves": [
+            "Love Beam",
+            "Rika Manifestation",
+            "Copy"
+        ]
+    },
+    {
+        "id": "soul-manipulation",
+        "name": "Soul Manipulation (Mahito)",
+        "rarity": 0.25,
+        "tier": "S",
+        "description": "Reshape souls, including your own. Extremely versatile and deadly.",
+        "grade": "Special Grade",
+        "image": "/images/clans/mahito.png",
+        "stats": {
+            "Type": "Special Grade",
+            "Passive": "Soul Touch",
+            "Domain": "Self-Embodiment of Perfection"
+        },
+        "moves": [
+            "Idle Transfiguration",
+            "Soul Multiplicity",
+            "Instant Spirit Body"
+        ]
+    },
+    {
+        "id": "hydrokinesis",
+        "name": "Hydrokinesis (Dagon)",
+        "rarity": 2.75,
+        "tier": "A",
+        "description": "Control vast amounts of water and summon shikigami from the depths.",
+        "grade": "Legendary",
+        "image": "/images/clans/hydrokinesis.png",
+        "stats": {
+            "Type": "Legendary",
+            "Element": "Water",
+            "Domain": "Horizon of the Captivating Skandha"
+        },
+        "moves": [
+            "Death Swarm",
+            "Water Jet",
+            "Flood"
+        ]
+    },
+    {
+        "id": "judgeman",
+        "name": "Judgeman (Higuruma)",
+        "rarity": 2.75,
+        "tier": "A",
+        "description": "A legal-themed domain that forbids violence and judges the opponent.",
+        "grade": "Legendary",
+        "image": "/images/clans/judgeman.png",
+        "stats": {
+            "Type": "Legendary",
+            "Domain": "Deadly Sentencing",
+            "Effect": "Confiscation"
+        },
+        "moves": [
+            "Gavel",
+            "Confiscation",
+            "Executioner's Sword"
+        ]
+    },
+    {
+        "id": "blood-manipulation",
+        "name": "Blood Manipulation",
+        "rarity": 7.0,
+        "tier": "B",
+        "description": "Controls blood for offensive and defensive versatility.",
+        "grade": "Rare",
+        "image": "/images/clans/blood-manipulation.png",
+        "stats": {
+            "Type": "Rare",
+            "Range": "Mid",
+            "Family": "Kamo"
+        },
+        "moves": [
+            "Piercing Blood",
+            "Convergence",
+            "Flowing Red Scale"
+        ]
+    },
+    {
+        "id": "ratio",
+        "name": "Ratio (Nanami)",
+        "rarity": 7.0,
+        "tier": "B",
+        "description": "Forcibly create a weak point at the 7:3 ratio spot.",
+        "grade": "Rare",
+        "image": "/images/clans/nanami.png",
+        "stats": {
+            "Type": "Rare",
+            "Crit": "Guaranteed",
+            "Style": "Melee"
+        },
+        "moves": [
+            "Ratio Strike",
+            "Collapse",
+            "Overtime"
+        ]
+    },
+    {
+        "id": "straw-doll",
+        "name": "Straw Doll (Nobara)",
+        "rarity": 7.0,
+        "tier": "B",
+        "description": "Voodoo-style technique using nails and a hammer.",
+        "grade": "Rare",
+        "image": "/images/clans/straw-doll.png",
+        "stats": {
+            "Type": "Rare",
+            "Weapon": "Hammer & Nails",
+            "Range": "Mid/Long"
+        },
+        "moves": [
+            "Resonance",
+            "Hairpin",
+            "Straw Doll Technique"
+        ]
+    },
+    {
+        "id": "cryokinesis",
+        "name": "Cryokinesis (Uraume)",
+        "rarity": 7.0,
+        "tier": "B",
+        "description": "Create and manipulate ice. freeze opponents.",
+        "grade": "Rare",
+        "image": "/images/clans/uraume.png",
+        "stats": {
+            "Type": "Rare",
+            "Element": "Ice",
+            "Effect": "Freeze"
+        },
+        "moves": [
+            "Frost Calm",
+            "Icefall",
+            "Glacial Wall"
+        ]
+    },
+    {
+        "id": "boogie-woogie",
+        "name": "Boogie Woogie (Todo)",
+        "rarity": 20.0,
+        "tier": "B",
+        "description": "Switch places with anything that has cursed energy.",
+        "grade": "Uncommon",
+        "image": "/images/clans/todo.png",
+        "stats": {
+            "Type": "Uncommon",
+            "Utility": "S-Tier",
+            "Style": "Support/Melee"
+        },
+        "moves": [
+            "Swap",
+            "Unpredictable Clap",
+            "Black Flash"
+        ]
+    },
+    {
+        "id": "cursed-speech",
+        "name": "Cursed Speech (Inumaki)",
+        "rarity": 7.0,
+        "tier": "C",
+        "description": "Words become weapons.",
+        "grade": "Rare",
+        "image": "/images/clans/cursed-speech.png",
+        "stats": {
+            "Type": "Rare",
+            "Range": "Long",
+            "Drawback": "Self-Damage"
+        },
+        "moves": [
+            "Sleep",
+            "Blast Away",
+            "Crush"
+        ]
+    },
+    {
+        "id": "blazing-courage",
+        "name": "Blazing Courage",
+        "rarity": 20.0,
+        "tier": "C",
+        "description": "Simple fire manipulation technique.",
+        "grade": "Uncommon",
+        "image": "/images/clans/blazing-courage.png",
+        "stats": {
+            "Type": "Uncommon",
+            "Element": "Fire"
+        },
+        "moves": [
+            "Fireball",
+            "Fire Punch"
+        ]
+    },
+    {
+        "id": "construction",
+        "name": "Construction (Mai)",
+        "rarity": 70.0,
+        "tier": "C",
+        "description": "Create objects from nothing using Cursed Energy.",
+        "grade": "Common",
+        "image": "/images/clans/construction.png",
+        "stats": {
+            "Type": "Common",
+            "Utility": "Creation",
+            "Limit": "Low CE"
+        },
+        "moves": [
+            "Revolver Creation",
+            "Bullet Creation"
+        ]
+    },
+    {
+        "id": "tool-manipulation",
+        "name": "Tool Manipulation (Momo)",
+        "rarity": 70.0,
+        "tier": "C",
+        "description": "Control cursed tools telekinetically.",
+        "grade": "Common",
+        "image": "/images/clans/tool-manipulation.png",
+        "stats": {
+            "Type": "Common",
+            "Weapon": "Broom",
+            "Range": "Long"
+        },
+        "moves": [
+            "Wind Scythe",
+            "Tool Flight"
+        ]
+    },
+    {
+        "id": "cloning",
+        "name": "Cloning Technique",
+        "rarity": 70.0,
+        "tier": "D",
+        "description": "Create simple clones of yourself.",
+        "grade": "Common",
+        "image": "/images/clans/clone.png",
+        "stats": {
+            "Type": "Common",
+            "Utility": "Distraction"
+        },
+        "moves": [
+            "Clone Creation",
+            "Swarm"
+        ]
+    }
+]
