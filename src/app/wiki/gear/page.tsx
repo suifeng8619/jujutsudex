@@ -34,7 +34,7 @@ export default async function GearPage() {
     const GearSection = ({ title, items }: { title: string, items: GearItem[] }) => (
         <section className="mb-16">
             <div className="mb-6 flex items-center gap-3">
-                <div className="h-8 w-1 rounded-full bg-red-600" />
+                <div className="h-8 w-1 rounded-full bg-gradient-to-b from-purple-600 to-purple-800" />
                 <h2 className="text-2xl font-bold text-white">{title}</h2>
                 <span className="rounded-full bg-neutral-800 px-3 py-1 text-xs font-medium text-neutral-400">
                     {items.length} Items
@@ -45,7 +45,7 @@ export default async function GearPage() {
                 {items.map((item) => (
                     <div
                         key={item.id}
-                        className="group relative overflow-hidden rounded-xl border border-white/10 bg-neutral-900/50 p-6 transition-all hover:border-red-500/50 hover:bg-neutral-900/80"
+                        className="group relative overflow-hidden rounded-xl border border-white/10 bg-neutral-900/50 p-6 transition-all hover:border-purple-500/50 hover:bg-neutral-900/80 hover:shadow-lg hover:shadow-purple-900/20"
                     >
                         <div className="flex items-start justify-between gap-4">
                             <div className="relative h-16 w-16 overflow-hidden rounded-lg bg-neutral-800">
@@ -54,6 +54,7 @@ export default async function GearPage() {
                                         src={item.image}
                                         alt={item.name}
                                         fill
+                                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                         className="object-cover"
                                     />
                                 ) : (
@@ -63,7 +64,7 @@ export default async function GearPage() {
                                 )}
                             </div>
                             <div className="flex-1">
-                                <h3 className="font-bold text-white group-hover:text-red-500">{item.name}</h3>
+                                <h3 className="font-bold text-white group-hover:text-purple-400 transition-colors">{item.name}</h3>
                                 <p className="text-sm text-neutral-400">{item.rarity}</p>
                             </div>
                         </div>

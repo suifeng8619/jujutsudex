@@ -34,7 +34,7 @@ export default async function FightingStylesPage() {
                 {styles.map((style) => (
                     <div
                         key={style.id}
-                        className="group relative overflow-hidden rounded-xl border border-white/10 bg-neutral-900/50 p-6 transition-all hover:border-red-500/50 hover:bg-neutral-900/80"
+                        className="group relative overflow-hidden rounded-xl border border-white/10 bg-neutral-900/50 p-6 transition-all hover:border-purple-500/50 hover:bg-neutral-900/80 hover:shadow-lg hover:shadow-purple-900/20"
                     >
                         <div className="flex items-start justify-between gap-4">
                             <div className="relative h-16 w-16 overflow-hidden rounded-lg bg-neutral-800">
@@ -43,12 +43,13 @@ export default async function FightingStylesPage() {
                                         src={style.image}
                                         alt={style.name}
                                         fill
+                                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                         className="object-cover"
                                     />
                                 )}
                             </div>
                             <div className="flex-1">
-                                <h3 className="font-bold text-white group-hover:text-red-500">{style.name}</h3>
+                                <h3 className="font-bold text-white group-hover:text-purple-400 transition-colors">{style.name}</h3>
                                 <p className="text-sm text-neutral-400">{style.tree} Tree</p>
                             </div>
                             <span className="rounded-full bg-neutral-800 px-2 py-1 text-xs font-medium text-neutral-300">

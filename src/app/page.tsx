@@ -12,12 +12,12 @@ interface FeatureCardProps {
 
 function FeatureCard({ href, icon: Icon, title, description, color }: FeatureCardProps) {
   return (
-    <Link href={href} className={cn("group relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900/50 p-8 transition-all hover:-translate-y-1 hover:shadow-2xl", color.replace('bg-', 'hover:border-').replace('500', '500/30'))}>
+    <Link href={href} className={cn("group relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900/50 p-6 sm:p-8 transition-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-900/30", color.replace('bg-', 'hover:border-').replace('500', '500/30'))}>
       <div className={cn("mb-4 inline-block rounded-xl p-3 bg-opacity-10", color.replace('bg-', 'text-'), color.replace('500', '500/10'))}>
         <Icon className="h-6 w-6" />
       </div>
-      <h3 className="mb-2 text-xl font-bold text-white">{title}</h3>
-      <p className="text-neutral-400">{description}</p>
+      <h3 className="mb-2 text-lg sm:text-xl font-bold text-white group-hover:text-purple-300 transition-colors">{title}</h3>
+      <p className="text-sm sm:text-base text-neutral-400">{description}</p>
     </Link>
   );
 }
@@ -27,15 +27,15 @@ export default function Home() {
     <div className="flex min-h-screen flex-col">
       <main className="flex-1">
         {/* Hero Section */}
-        <div className="relative overflow-hidden border-b border-purple-900/20 bg-neutral-900/30 px-4 py-24 text-center sm:px-6 lg:px-8">
+        <div className="relative overflow-hidden border-b border-purple-900/20 bg-neutral-900/30 px-4 py-16 sm:py-24 text-center sm:px-6 lg:px-8">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-900/30 via-red-900/10 to-transparent opacity-70" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-purple-600/10 via-transparent to-transparent" />
 
           <div className="relative mx-auto max-w-3xl">
-            <h1 className="bg-gradient-to-br from-white via-purple-100 to-purple-400 bg-clip-text text-5xl font-black tracking-tight text-transparent sm:text-7xl">
+            <h1 className="bg-gradient-to-br from-white via-purple-100 to-purple-400 bg-clip-text text-4xl font-black tracking-tight text-transparent sm:text-5xl lg:text-7xl">
               Jujutsu<span className="bg-gradient-to-r from-purple-400 to-red-500 bg-clip-text">Dex</span>
             </h1>
-            <p className="mt-6 text-xl text-neutral-400">
+            <p className="mt-6 text-base sm:text-lg lg:text-xl text-neutral-400 max-w-2xl mx-auto">
               The ultimate utility belt for Jujutsu Infinite.
               <br className="hidden sm:inline" />
               Latest codes, drop rates, and technique guides.
