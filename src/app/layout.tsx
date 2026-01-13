@@ -8,14 +8,14 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://jujutsudex.vercel.app'),
-  title: 'JujutsuDex - Infinite Tools & Codes',
-  description: 'The ultimate toolset for Jujutsu Infinite. Codes, Spin Simulator, and Wiki.',
+  title: 'Jujutsu Infinite Codes & Wiki (2026) - Tier List, Clans & Strategy',
+  description: 'Updated January 2026: 9 Active Jujutsu Infinite codes for 500+ Free Spins! View the S-Tier Clan Tier List, Cursed Techniques guide, and Spin Simulator database.',
   alternates: {
     canonical: './',
   },
   openGraph: {
-    title: 'JujutsuDex - Infinite Tools & Codes',
-    description: 'The ultimate toolset for Jujutsu Infinite. Codes, Spin Simulator, and Wiki.',
+    title: 'Jujutsu Infinite Codes & Wiki (2026) - Tier List, Clans & Strategy',
+    description: 'Updated January 2026: 9 Active Jujutsu Infinite codes for 500+ Free Spins! View the S-Tier Clan Tier List, Cursed Techniques guide, and Spin Simulator database.',
     type: 'website',
     siteName: 'JujutsuDex',
   },
