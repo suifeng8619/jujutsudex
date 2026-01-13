@@ -2,6 +2,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { GameCode } from '@/types';
 import { CodeCard } from '@/components/tools/CodeCard';
+import { JsonLd } from '@/components/shared/JsonLd';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -27,8 +28,34 @@ export default async function CodesPage() {
         year: 'numeric'
     });
 
+    const faqSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+            {
+                '@type': 'Question',
+                name: 'What are the active codes for Jujutsu Infinite?',
+                acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: activeCodes.length > 0
+                        ? `Currently active codes include: ${activeCodes.map(c => c.code).join(', ')}. Redeem them for free spins.`
+                        : 'There are currently no active codes. Check back later for updates.'
+                }
+            },
+            {
+                '@type': 'Question',
+                name: 'How do I redeem codes in Jujutsu Infinite?',
+                acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Open the menu, click on settings (gear icon), and enter the code in the text box at the bottom of the screen.'
+                }
+            }
+        ]
+    };
+
     return (
         <div className="container mx-auto max-w-4xl px-4 py-12">
+            <JsonLd data={faqSchema} />
             <div className="mb-12 text-center">
                 <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
                     Jujutsu Infinite Codes

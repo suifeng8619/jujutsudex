@@ -77,11 +77,35 @@ function UpdateCard({ title, category, date, href }: { title: string, category: 
   );
 }
 
+import { JsonLd } from '@/components/shared/JsonLd';
+
 export default async function Home() {
   const { clans, codes, tools } = await getData();
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'VideoGame',
+    name: 'Jujutsu Infinite',
+    description: 'A Roblox RPG based on Jujutsu Kaisen where players spin for clans, learn cursed techniques, and battle curses.',
+    genre: ['RPG', 'Fighting Game', 'Roblox'],
+    applicationCategory: 'Game',
+    operatingSystem: 'Windows, macOS, iOS, Android',
+    url: 'https://www.roblox.com/games/10450270085/Jujutsu-Infinite',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Independent Developers'
+    },
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock'
+    }
+  };
+
   return (
     <div className="flex min-h-screen flex-col">
+      <JsonLd data={jsonLd} />
       <main className="flex-1">
 
         <Hero />
