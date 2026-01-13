@@ -69,10 +69,10 @@ export default async function GearPage() {
                             </div>
                         </div>
 
-                        <div className="mt-4 space-y-2">
+                        <div className="mt-4 space-y-4">
                             <p className="line-clamp-2 text-sm text-neutral-400">{item.description}</p>
 
-                            <div className="mt-4 grid grid-cols-2 gap-2 text-sm">
+                            <div className="grid grid-cols-2 gap-2 text-sm">
                                 {Object.entries(item.stats).map(([key, value]) => (
                                     <div key={key} className="rounded bg-neutral-800/50 px-2 py-1">
                                         <span className="block text-xs text-neutral-500">{key}</span>
@@ -80,6 +80,20 @@ export default async function GearPage() {
                                     </div>
                                 ))}
                             </div>
+
+                            {item.howToObtain && (
+                                <div className="rounded-lg border border-purple-900/30 bg-purple-900/10 p-3">
+                                    <h4 className="mb-1 text-xs font-bold uppercase tracking-wider text-purple-400">How to Obtain</h4>
+                                    <p className="text-sm text-neutral-300">{item.howToObtain}</p>
+                                </div>
+                            )}
+
+                            {item.obtained_from && !item.howToObtain && (
+                                <div className="rounded-lg border border-purple-900/30 bg-purple-900/10 p-3">
+                                    <h4 className="mb-1 text-xs font-bold uppercase tracking-wider text-purple-400">Obtained From</h4>
+                                    <p className="text-sm text-neutral-300">{item.obtained_from}</p>
+                                </div>
+                            )}
                         </div>
                     </div>
                 ))}

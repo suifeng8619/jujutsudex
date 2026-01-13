@@ -4,15 +4,20 @@
         "name": "Eagle Style",
         "tree": "Strength",
         "rarity": "Unlockable",
-        "description": "A martial art focusing on fast, precise kicks to close distance.",
+        "description": "A martial art focusing on fast, precise kicks to close distance. Popular among agile fighters who prefer aerial combat and quick gap-closing maneuvers.",
+        "howToObtain": "Reach Level 50 in the Strength skill tree",
+        "tips": "Best paired with mobility-focused clans like Boogie Woogie. Use Flash Kick to initiate combos.",
         "moves": [
             "Flash Kick",
             "Eagle Dive",
-            "Talon Strike"
+            "Talon Strike",
+            "Aerial Slam"
         ],
         "stats": {
             "Type": "Martial Art",
-            "Focus": "Mobility / Combo"
+            "Focus": "Mobility / Combo",
+            "Damage": "Medium",
+            "Speed": "Fast"
         },
         "image": "/images/awakenings/black-flash.png"
     },
@@ -21,15 +26,20 @@
         "name": "Taido Martial Arts",
         "tree": "Strength",
         "rarity": "Unlockable",
-        "description": "Yuji's signature style. Uses full body rotation for heavy impacts.",
+        "description": "Yuji Itadori's signature style. Uses full body rotation for devastating impacts. The core philosophy is maximizing power through rotational momentum.",
+        "howToObtain": "Complete the 'Path of the Vessel' questline",
+        "tips": "Combine Divergent Fist with Black Flash for massive damage. Time your Manji Kicks during enemy recovery.",
         "moves": [
             "Manji Kick",
             "Knee Release",
-            "Divergent Fist (Imbued)"
+            "Divergent Fist (Imbued)",
+            "Spinning Backfist"
         ],
         "stats": {
             "Type": "Martial Art",
-            "Focus": "Heavy Strikes"
+            "Focus": "Heavy Strikes",
+            "Damage": "High",
+            "Speed": "Medium"
         },
         "image": "/images/clans/boogie-woogie.png"
     },
@@ -38,16 +48,131 @@
         "name": "Judo / Grappling",
         "tree": "Strength",
         "rarity": "Unlockable",
-        "description": "Defensive grappling style focusing on throws and counters.",
+        "description": "Defensive grappling style focusing on throws and counters. Excellent for punishing aggressive opponents and controlling the pace of combat.",
+        "howToObtain": "Win 100 PvP matches",
+        "tips": "Use Counter Grip when opponents try to rush you. Ground Slam deals extra damage near walls.",
         "moves": [
             "Shoulder Throw",
             "Counter Grip",
-            "Ground Slam"
+            "Ground Slam",
+            "Arm Lock"
         ],
         "stats": {
             "Type": "Martial Art",
-            "Focus": "Defense / Control"
+            "Focus": "Defense / Control",
+            "Damage": "Medium",
+            "Speed": "Slow"
         },
         "image": "/images/clans/muscle.png"
+    },
+    {
+        "id": "boxing",
+        "name": "Boxing",
+        "tree": "Strength",
+        "rarity": "Unlockable",
+        "description": "Classic Western boxing style emphasizing powerful punches and head movement. Perfect for sustained close-range combat with quick jabs and devastating hooks.",
+        "howToObtain": "Reach Level 30 in the Strength skill tree",
+        "tips": "Focus on timing your dodges. The Uppercut has hyper armor during startup frames.",
+        "moves": [
+            "Jab Combo",
+            "Hook",
+            "Uppercut",
+            "Weave Counter"
+        ],
+        "stats": {
+            "Type": "Martial Art",
+            "Focus": "Close Combat",
+            "Damage": "High",
+            "Speed": "Fast"
+        },
+        "image": "/images/clans/ratio.png"
+    },
+    {
+        "id": "muay-thai",
+        "name": "Muay Thai",
+        "tree": "Strength",
+        "rarity": "Unlockable",
+        "description": "The Art of Eight Limbs. Utilizes punches, kicks, elbows, and knees for devastating multi-hit combos. Known for powerful clinch techniques.",
+        "howToObtain": "Defeat 50 enemies using only martial arts",
+        "tips": "The Clinch Knee is unblockable. Use Elbow Strike to break guards. Chain into Roundhouse for max damage.",
+        "moves": [
+            "Roundhouse Kick",
+            "Elbow Strike",
+            "Clinch Knee",
+            "Teep Push"
+        ],
+        "stats": {
+            "Type": "Martial Art",
+            "Focus": "Multi-Limb Strikes",
+            "Damage": "Very High",
+            "Speed": "Medium"
+        },
+        "image": "/images/clans/volcano.png"
+    },
+    {
+        "id": "capoeira",
+        "name": "Capoeira",
+        "tree": "Agility",
+        "rarity": "Unlockable",
+        "description": "Brazilian dance-fighting style known for fluid, unpredictable movements. Combines acrobatics with deceptive kicks that are difficult to read and counter.",
+        "howToObtain": "Master the 'Flow State' training minigame",
+        "tips": "Keep moving! Ginga stance regenerates stamina faster. Use Armada to punish blocked attacks.",
+        "moves": [
+            "Ginga Stance",
+            "Armada",
+            "Au Batido",
+            "Meia Lua"
+        ],
+        "stats": {
+            "Type": "Martial Art",
+            "Focus": "Evasion / Mixups",
+            "Damage": "Medium",
+            "Speed": "Very Fast"
+        },
+        "image": "/images/clans/ten-shadows.png"
+    },
+    {
+        "id": "wrestling",
+        "name": "Pro Wrestling",
+        "tree": "Strength",
+        "rarity": "Unlockable",
+        "description": "Showman combat style with powerful throws and slams. Sacrifices speed for raw power and crowd-pleasing devastation. Todo's preferred secondary style.",
+        "howToObtain": "Complete the 'True Battle Brother' bond quest with Todo NPC",
+        "tips": "Suplex deals massive damage but has long windup. Use Clothesline as a gap closer.",
+        "moves": [
+            "Suplex",
+            "Clothesline",
+            "Powerbomb",
+            "Bear Hug"
+        ],
+        "stats": {
+            "Type": "Martial Art",
+            "Focus": "Power / Throws",
+            "Damage": "Extreme",
+            "Speed": "Slow"
+        },
+        "image": "/images/clans/heavenly-restriction.png"
+    },
+    {
+        "id": "karate",
+        "name": "Shotokan Karate",
+        "tree": "Strength",
+        "rarity": "Unlockable",
+        "description": "Traditional Japanese striking art emphasizing powerful, precise techniques. Balanced offense and defense with strong counter-attack potential.",
+        "howToObtain": "Complete Beginner Training at Tokyo Jujutsu High",
+        "tips": "Reverse Punch has the fastest startup. Use Low Kick to break opponent's stance before combos.",
+        "moves": [
+            "Reverse Punch",
+            "Front Kick",
+            "Low Kick",
+            "Knife Hand Strike"
+        ],
+        "stats": {
+            "Type": "Martial Art",
+            "Focus": "Balanced / Counter",
+            "Damage": "Medium-High",
+            "Speed": "Medium-Fast"
+        },
+        "image": "/images/clans/straw-doll.png"
     }
 ]

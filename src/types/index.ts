@@ -32,6 +32,8 @@ export interface FightingStyle {
     [key: string]: string;
   };
   image?: string;
+  howToObtain?: string;
+  tips?: string;
 }
 
 export interface GearItem {
@@ -44,5 +46,6 @@ export interface GearItem {
     [key: string]: string;
   };
   image?: string;
-  obtained_from?: string; // Optional field for source
+  obtained_from?: string;
+  howToObtain?: string;
 }

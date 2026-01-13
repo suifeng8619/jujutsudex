@@ -4,7 +4,8 @@
         "name": "Soul Ring",
         "type": "Ring",
         "rarity": "Special Grade",
-        "description": "A ring that resonates with the soul. Boosts all cursed energy output.",
+        "description": "A ring that resonates with the soul. Boosts all cursed energy output significantly. Crafted from the remnants of a high-grade cursed spirit.",
+        "howToObtain": "Defeat the Final Boss in Nightmare Mode",
         "stats": {
             "Buff": "+15% CE Output",
             "Effect": "Soul Resonance"
@@ -16,21 +17,24 @@
         "name": "Molten Ring",
         "type": "Ring",
         "rarity": "Legendary",
-        "description": "A ring forged in the heart of a volcano.",
+        "description": "A ring forged in the heart of a volcano. Burns enemies on contact and enhances fire-based techniques.",
+        "howToObtain": "Complete the Volcano Raid with S-Rank",
         "stats": {
             "Buff": "+10% Fire DMG",
-            "Effect": "Burn on Hit"
+            "Effect": "Burn on Hit (5% chance)"
         },
         "image": "/images/clans/volcano.png"
     },
     {
         "id": "jade-wrist-beads",
         "name": "Jade Wrist Beads",
-        "type": "Accessory",
+        "type": "Bracelet",
         "rarity": "Legendary",
-        "description": "Beads that calm the spirit and focus energy.",
+        "description": "Beads that calm the spirit and focus energy. Used by monks for centuries to enhance meditation and cursed energy control.",
+        "howToObtain": "Purchase from Hidden Merchant (500,000 Yen)",
         "stats": {
-            "Buff": "+20% Focus Regen"
+            "Buff": "+20% Focus Regen",
+            "Effect": "Faster CE Recovery"
         },
         "image": "/images/traits/dense.png"
     },
@@ -39,7 +43,8 @@
         "name": "Ninja Headband",
         "type": "Headgear",
         "rarity": "Rare",
-        "description": "Increases agility and movement speed.",
+        "description": "Increases agility and movement speed. Worn by stealth specialists who favor hit-and-run tactics.",
+        "howToObtain": "Complete 50 Assassination Missions",
         "stats": {
             "Buff": "+15% Speed",
             "Passive": "Quiet Steps"
@@ -51,9 +56,11 @@
         "name": "Tactful Ring",
         "type": "Ring",
         "rarity": "Rare",
-        "description": "A simple ring that enhances technique precision.",
+        "description": "A simple ring that enhances technique precision. Favored by sorcerers who prioritize accuracy over raw power.",
+        "howToObtain": "Reach Grade 2 Sorcerer Rank",
         "stats": {
-            "Buff": "+5% Technique DMG"
+            "Buff": "+5% Technique DMG",
+            "Effect": "+10% Crit Rate"
         },
         "image": "/images/clans/construction.png"
     },
@@ -62,10 +69,77 @@
         "name": "Silver Ring",
         "type": "Ring",
         "rarity": "Common",
-        "description": "Standard silver ring possessed by many sorcerers.",
+        "description": "Standard silver ring possessed by many sorcerers. A basic accessory that provides modest CE enhancement.",
+        "howToObtain": "Starting equipment / Shop (1,000 Yen)",
         "stats": {
-            "Buff": "+2% CE Cap"
+            "Buff": "+2% CE Cap",
+            "Effect": "None"
         },
         "image": "/images/tools/executioner-sword.png"
+    },
+    {
+        "id": "cursed-amulet",
+        "name": "Cursed Amulet",
+        "type": "Necklace",
+        "rarity": "Legendary",
+        "description": "An amulet infused with residual cursed energy from ancient battles. Passively absorbs curse energy from defeated enemies.",
+        "howToObtain": "Find in the Cursed Tomb Dungeon (3% drop rate)",
+        "stats": {
+            "Buff": "+10% CE Absorption",
+            "Effect": "Lifesteal on Kill"
+        },
+        "image": "/images/clans/soul-manipulation.png"
+    },
+    {
+        "id": "speed-boots",
+        "name": "Swift Tabi Boots",
+        "type": "Footwear",
+        "rarity": "Legendary",
+        "description": "Traditional Japanese split-toe boots enhanced with cursed energy. Allows for rapid movement and silent approaches.",
+        "howToObtain": "Win 200 PvP Matches",
+        "stats": {
+            "Buff": "+25% Movement Speed",
+            "Effect": "Dash Distance +50%"
+        },
+        "image": "/images/clans/gambler.png"
+    },
+    {
+        "id": "barrier-charm",
+        "name": "Barrier Protection Charm",
+        "type": "Charm",
+        "rarity": "Special Grade",
+        "description": "A protective talisman blessed by a high-grade sorcerer. Creates a temporary barrier when taking fatal damage.",
+        "howToObtain": "Complete the 'Protecting the Weak' S-Rank Mission",
+        "stats": {
+            "Buff": "+20% Defense",
+            "Effect": "Auto-Barrier (30s cooldown)"
+        },
+        "image": "/images/clans/curse-queen.png"
+    },
+    {
+        "id": "focus-headband",
+        "name": "Concentration Headband",
+        "type": "Headgear",
+        "rarity": "Rare",
+        "description": "Worn by students at Jujutsu High during training. Helps maintain focus during extended battles.",
+        "howToObtain": "Graduate from Jujutsu High Academy",
+        "stats": {
+            "Buff": "+15% Skill Cooldown Reduction",
+            "Effect": "Focus Mode Duration +3s"
+        },
+        "image": "/images/clans/blood-manipulation.png"
+    },
+    {
+        "id": "rage-ring",
+        "name": "Berserker's Ring",
+        "type": "Ring",
+        "rarity": "Legendary",
+        "description": "A dangerous ring that amplifies aggressive tendencies. Increases damage but reduces defense.",
+        "howToObtain": "Defeat 1000 enemies without dying",
+        "stats": {
+            "Buff": "+30% Attack DMG",
+            "Effect": "-15% Defense (Tradeoff)"
+        },
+        "image": "/images/clans/star-rage.png"
     }
 ]

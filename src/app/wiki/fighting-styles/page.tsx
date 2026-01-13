@@ -57,10 +57,10 @@ export default async function FightingStylesPage() {
                             </span>
                         </div>
 
-                        <div className="mt-4 space-y-2">
+                        <div className="mt-4 space-y-4">
                             <p className="line-clamp-2 text-sm text-neutral-400">{style.description}</p>
 
-                            <div className="mt-4 grid grid-cols-2 gap-2 text-sm">
+                            <div className="grid grid-cols-2 gap-2 text-sm">
                                 {Object.entries(style.stats).map(([key, value]) => (
                                     <div key={key} className="rounded bg-neutral-800/50 px-2 py-1">
                                         <span className="block text-xs text-neutral-500">{key}</span>
@@ -69,7 +69,22 @@ export default async function FightingStylesPage() {
                                 ))}
                             </div>
 
-                            <div className="mt-4">
+                            {/* New Sections */}
+                            {style.howToObtain && (
+                                <div className="rounded-lg border border-purple-900/30 bg-purple-900/10 p-3">
+                                    <h4 className="mb-1 text-xs font-bold uppercase tracking-wider text-purple-400">How to Obtain</h4>
+                                    <p className="text-sm text-neutral-300">{style.howToObtain}</p>
+                                </div>
+                            )}
+
+                            {style.tips && (
+                                <div className="rounded-lg border border-blue-900/30 bg-blue-900/10 p-3">
+                                    <h4 className="mb-1 text-xs font-bold uppercase tracking-wider text-blue-400">Pro Tips</h4>
+                                    <p className="text-sm text-neutral-300">{style.tips}</p>
+                                </div>
+                            )}
+
+                            <div>
                                 <h4 className="mb-2 text-xs font-semibold uppercase tracking-wider text-neutral-500">Moves</h4>
                                 <div className="flex flex-wrap gap-2">
                                     {style.moves.map((move) => (
