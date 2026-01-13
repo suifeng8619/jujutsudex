@@ -7,8 +7,18 @@ import { Footer } from '@/components/shared/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://jujutsudex.vercel.app'),
   title: 'JujutsuDex - Infinite Tools & Codes',
   description: 'The ultimate toolset for Jujutsu Infinite. Codes, Spin Simulator, and Wiki.',
+  alternates: {
+    canonical: './',
+  },
+  openGraph: {
+    title: 'JujutsuDex - Infinite Tools & Codes',
+    description: 'The ultimate toolset for Jujutsu Infinite. Codes, Spin Simulator, and Wiki.',
+    type: 'website',
+    siteName: 'JujutsuDex',
+  },
 };
 
 export default function RootLayout({
