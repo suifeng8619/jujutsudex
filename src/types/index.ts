@@ -24,16 +24,26 @@ export interface Clan {
 export interface FightingStyle {
   id: string;
   name: string;
-  tree: string;
+  tree: string; // Restored tree property
   rarity: string;
+  tier: string;
   description: string;
-  moves: string[];
+  image?: string;
   stats: {
     [key: string]: string;
   };
-  image?: string;
+  moves: string[];
   howToObtain?: string;
   tips?: string;
+}
+
+export interface Code {
+  id: string;
+  code: string;
+  reward: string;
+  status: string; // Changed from active: boolean
+  lastChecked: string;
+  isNew?: boolean;
 }
 
 export interface GearItem {
