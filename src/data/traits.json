@@ -5,6 +5,8 @@
         "rarity": "Legendary",
         "chance": "10%",
         "description": "Cursed energy with a rough, sandpaper-like texture. Cuts opponents on contact.",
+        "howToObtain": "Roll 'Rough' trait using Trait Rerolls (1% chance)",
+        "tips": "Passive damage adds up in long fights. Great for aggressive melee builds.",
         "stats": {
             "Effect": "Passive Damage on Hit",
             "Trait": "Painful Contact"
@@ -16,7 +18,9 @@
         "name": "Electric Energy (Kashimo)",
         "rarity": "Legendary",
         "chance": "10%",
-        "description": "Cursed energy with properties of electricity. Can stun opponents.",
+        "description": "Cursed energy with properties of electricity. Can stun opponents and build up charge.",
+        "howToObtain": "Roll 'Electric' trait using Trait Rerolls (1% chance)",
+        "tips": "Use multi-hit moves to build up the stun proc faster.",
         "stats": {
             "Effect": "Stun / Paralysis",
             "Trait": "Lightning Discharge"
@@ -28,7 +32,9 @@
         "name": "Corrosive Energy",
         "rarity": "Rare",
         "chance": "20%",
-        "description": "Energy that corrodes defenses over time.",
+        "description": "Energy that corrodes defenses over time, reducing enemy damage reduction.",
+        "howToObtain": "Roll 'Corrosive' trait",
+        "tips": "Best used against tank builds to shred their armor.",
         "stats": {
             "Effect": "Armor Break / DoT"
         },
@@ -39,7 +45,9 @@
         "name": "Toxic Energy",
         "rarity": "Rare",
         "chance": "20%",
-        "description": "Poisonous energy that sickens enemies.",
+        "description": "Poisonous energy that sickens enemies, applying a damage-over-time effect.",
+        "howToObtain": "Roll 'Toxic' trait",
+        "tips": "Effect stacks up to 3 times for maximum DoT.",
         "stats": {
             "Effect": "Poison Damage"
         },
@@ -50,7 +58,9 @@
         "name": "Dense Energy",
         "rarity": "Common",
         "chance": "70%",
-        "description": "Heavier, more impact-focused energy.",
+        "description": "Heavier, more impact-focused energy. Increases the weight behind your attacks.",
+        "howToObtain": "Default trait or rolled",
+        "tips": "The 10% damage buff is simple but effective for any build.",
         "stats": {
             "Buff": "+Damage to M1"
         },

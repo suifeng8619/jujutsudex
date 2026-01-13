@@ -4,7 +4,9 @@
         "name": "Black Flash Arms",
         "rarity": "Legendary",
         "chance": "10%",
-        "description": "Arms imbued with the spatial distortion of Black Flash. Boosts damage significantly.",
+        "description": "Arms imbued with the spatial distortion of Black Flash. Grants the ability to land Black Flashes at will.",
+        "howToObtain": "10% chance when awakening in the Zone",
+        "tips": "Coordinate with teammates to chain Black Flashes for multiplicative damage.",
         "stats": {
             "Buff": "+8% Black Flash DMG",
             "Effect": "Black Sparks Visuals"
@@ -16,7 +18,9 @@
         "name": "Burn Scars",
         "rarity": "Legendary",
         "chance": "10%",
-        "description": "Scars from a past battle. Grants enhanced senses and agility.",
+        "description": "Scars from a battle where you survived near-death by fire. Grants enhanced senses and survival instincts.",
+        "howToObtain": "Survive Jogo's Meteor attack with < 5% HP",
+        "tips": "The passive domain vision allows you to counter-domain exactly when opponents open theirs.",
         "stats": {
             "Passive": "Curse Vision",
             "Buff": "Increased Dash/Jump",
@@ -29,7 +33,9 @@
         "name": "Energy Halo",
         "rarity": "Rare",
         "chance": "20%",
-        "description": "A halo of concentrated cursed energy.",
+        "description": "A halo of concentrated cursed energy manifesting above the user. Signifies immense CE control.",
+        "howToObtain": "Reach max Cursed Energy stat cap",
+        "tips": "Great for build that rely on high CE consumption techniques.",
         "stats": {
             "Buff": "+10% Divergent Fist DMG",
             "Visual": "Head Halo"
@@ -41,7 +47,9 @@
         "name": "Steel Arms",
         "rarity": "Rare",
         "chance": "20%",
-        "description": "Arms hardened like steel for weapon usage.",
+        "description": "Arms hardened like steel through cursed energy reinforcement. Increases durability and weapon impact.",
+        "howToObtain": "Block 10,000 damage total",
+        "tips": "Combos well with heavy weapons like Dragon Bone.",
         "stats": {
             "Buff": "+5% Cursed Tool DMG",
             "Defense": "Small reduction"
@@ -53,7 +61,9 @@
         "name": "Flesh Arms",
         "rarity": "Common",
         "chance": "70%",
-        "description": "Mutated arms that pack a punch against curses.",
+        "description": "Mutated arms that pack a heavier punch against curses. A basic physical mutation.",
+        "howToObtain": "Common drop from Cursed Spirit modification",
+        "tips": "Decent starting awakening for PvE grinding.",
         "stats": {
             "Buff": "+20% PvE Damage"
         },
@@ -64,7 +74,9 @@
         "name": "Energy Horns",
         "rarity": "Common",
         "chance": "70%",
-        "description": "Horns formed from leaking cursed energy.",
+        "description": "Horns formed from leaking cursed energy. Indicates an overflow of spirit energy.",
+        "howToObtain": "Consume 10 Cursed Objects",
+        "tips": "Useful for spamming low-cost skills.",
         "stats": {
             "Buff": "+20% Focus Gain"
         },

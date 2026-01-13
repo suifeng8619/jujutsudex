@@ -49,3 +49,47 @@ export interface GearItem {
   obtained_from?: string;
   howToObtain?: string;
 }
+
+export interface Awakening {
+  id: string;
+  name: string;
+  rarity: string;
+  chance: string;
+  description: string;
+  stats: {
+    [key: string]: string;
+  };
+  image?: string;
+  howToObtain?: string;
+  tips?: string;
+}
+
+export interface Tool {
+  id: string;
+  name: string;
+  grade: string;
+  source: string;
+  value: string;
+  description: string;
+  stats: {
+    [key: string]: string;
+  };
+  moves: string[];
+  image?: string;
+  howToObtain?: string;
+  tips?: string;
+}
+
+export interface Trait {
+  id: string;
+  name: string;
+  rarity: string;
+  chance: string;
+  description: string;
+  stats: {
+    [key: string]: string;
+  };
+  image?: string;
+  howToObtain?: string;
+  tips?: string;
+}

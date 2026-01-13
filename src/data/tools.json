@@ -5,7 +5,9 @@
         "grade": "Special Grade",
         "source": "Curse Market / Drop",
         "value": "15 Fingers",
-        "description": "A legendary tool that forces the stoppage of any innate technique.",
+        "description": "A legendary tool that forces the stoppage of any innate technique. The ultimate counter to sorcery.",
+        "howToObtain": "Legendary drop from Hidden Inventory Boss or Trade",
+        "tips": "Use 'Throat Gouge' to silence enemy casting for 3 seconds.",
         "stats": {
             "Passive": "Nullify (Bypass iFrames)",
             "Buff": "+5% M1/Crit DMG"
@@ -23,7 +25,9 @@
         "grade": "Special Grade",
         "source": "Sorcerer Killer Raid / Craft",
         "value": "100 Chains",
-        "description": "A three-section staff that embodies pure physical force.",
+        "description": "A three-section staff that embodies pure physical force. The only special grade tool with no cursed technique.",
+        "howToObtain": "Defeat Toji Fushiguro in the Raid",
+        "tips": "Damage scales purely off your Strength stat, not Cursed Energy.",
         "stats": {
             "Type": "Pure Strength",
             "Effect": "Guard Break"
@@ -40,7 +44,9 @@
         "grade": "Special Grade",
         "source": "Judgeman Domain (RPS Win)",
         "value": "N/A",
-        "description": "A sword that kills anyone it cuts without fail.",
+        "description": "A sword that kills anyone it cuts without fail. Manifested by Higuruma's domain.",
+        "howToObtain": "Temporarily obtained by winning a Death Sentence case with Judgeman",
+        "tips": "You only have one swing. Don't miss.",
         "stats": {
             "Effect": "One Shot Kill",
             "Condition": "Domain Win"
@@ -57,7 +63,9 @@
         "grade": "Special Grade",
         "source": "Soul Curse Raid",
         "value": "100 Transfigured Humans",
-        "description": "A blade that cuts directly at the soul.",
+        "description": "A blade that cuts directly at the soul. Ignores physical durability.",
+        "howToObtain": "Craft using 50 Soul Shards",
+        "tips": "Effective against tanky enemies like Hanami or Mahito.",
         "stats": {
             "Effect": "Soul Damage",
             "Bypass": "Durability"
@@ -74,7 +82,9 @@
         "grade": "Special Grade",
         "source": "Cursed School Chest",
         "value": "200 Keys",
-        "description": "A thick blade that stores and releases kinetic energy.",
+        "description": "A thick blade that stores and releases kinetic energy from impacts.",
+        "howToObtain": "Rare find in Kyoto School Exchange event chests",
+        "tips": "Block attacks to charge up the blade, then release for explosive damage.",
         "stats": {
             "Active": "Kinetic Charge",
             "Effect": "Explosive DMG"
@@ -91,7 +101,9 @@
         "grade": "Uncommon",
         "source": "Grade 3 / Clan Head",
         "value": "Free",
-        "description": "A dagger infused with cursed energy.",
+        "description": "A dagger infused with cursed energy. Good for beginners.",
+        "howToObtain": "Given by Gojo during the tutorial quest",
+        "tips": "Keep it until you find a Grade 1 weapon.",
         "stats": {
             "Buff": "+5% DMG, +10% Speed"
         },
