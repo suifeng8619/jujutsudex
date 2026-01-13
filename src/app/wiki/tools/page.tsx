@@ -3,6 +3,7 @@ import path from 'path';
 import { Tool } from '@/types';
 import { Metadata } from 'next';
 import Image from 'next/image';
+import { JsonLd } from '@/components/shared/JsonLd';
 
 export const metadata: Metadata = {
     title: 'Jujutsu Infinite Cursed Tools - Weapons & Special Grade Items',
@@ -18,8 +19,24 @@ async function getTools(): Promise<Tool[]> {
 export default async function ToolsPage() {
     const tools = await getTools();
 
+    const itemListSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: tools.map((tool, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            item: {
+                '@type': 'Product',
+                name: tool.name,
+                description: tool.description,
+                image: tool.image ? `https://jujutsudex.com${tool.image}` : undefined,
+            }
+        }))
+    };
+
     return (
         <div className="container mx-auto px-4 py-12">
+            <JsonLd data={itemListSchema} />
             <div className="mb-12 text-center">
                 <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
                     Cursed Tools & Weapons

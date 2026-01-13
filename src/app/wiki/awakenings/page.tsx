@@ -3,6 +3,7 @@ import path from 'path';
 import { Awakening } from '@/types';
 import { Metadata } from 'next';
 import Image from 'next/image';
+import { JsonLd } from '@/components/shared/JsonLd';
 
 export const metadata: Metadata = {
     title: 'Jujutsu Infinite Awakenings - Modes & Transformations',
@@ -18,8 +19,24 @@ async function getAwakenings(): Promise<Awakening[]> {
 export default async function AwakeningsPage() {
     const awakenings = await getAwakenings();
 
+    const itemListSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: awakenings.map((start, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            item: {
+                '@type': 'Product', // Or 'GameContent' if we were strict, but Product/Thing is safe
+                name: start.name,
+                description: start.description,
+                image: start.image ? `https://jujutsudex.com${start.image}` : undefined,
+            }
+        }))
+    };
+
     return (
         <div className="container mx-auto px-4 py-12">
+            <JsonLd data={itemListSchema} />
             <div className="mb-12 text-center">
                 <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
                     Awakenings & Modes

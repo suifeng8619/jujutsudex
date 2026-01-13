@@ -3,6 +3,7 @@ import path from 'path';
 import { GearItem } from '@/types';
 import { Metadata } from 'next';
 import Image from 'next/image';
+import { JsonLd } from '@/components/shared/JsonLd';
 
 export const metadata: Metadata = {
     title: 'Jujutsu Infinite Gear - Accessories & Outfits',
@@ -30,6 +31,22 @@ export default async function GearPage() {
         getAccessories(),
         getOutfits()
     ]);
+
+    const allItems = [...accessories, ...outfits];
+    const itemListSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: allItems.map((item, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            item: {
+                '@type': 'Product',
+                name: item.name,
+                description: item.description,
+                image: item.image ? `https://jujutsudex.com${item.image}` : undefined,
+            }
+        }))
+    };
 
     const GearSection = ({ title, items }: { title: string, items: GearItem[] }) => (
         <section className="mb-16">
@@ -103,6 +120,7 @@ export default async function GearPage() {
 
     return (
         <div className="container mx-auto px-4 py-12">
+            <JsonLd data={itemListSchema} />
             <div className="mb-12 text-center">
                 <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
                     Gear & Outfits

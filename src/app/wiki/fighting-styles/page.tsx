@@ -3,6 +3,7 @@ import path from 'path';
 import { FightingStyle } from '@/types';
 import { Metadata } from 'next';
 import Image from 'next/image';
+import { JsonLd } from '@/components/shared/JsonLd';
 
 
 export const metadata: Metadata = {
@@ -19,8 +20,24 @@ async function getFightingStyles(): Promise<FightingStyle[]> {
 export default async function FightingStylesPage() {
     const styles = await getFightingStyles();
 
+    const itemListSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: styles.map((style, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            item: {
+                '@type': 'Product',
+                name: style.name,
+                description: style.description,
+                image: style.image ? `https://jujutsudex.com${style.image}` : undefined,
+            }
+        }))
+    };
+
     return (
         <div className="container mx-auto px-4 py-12">
+            <JsonLd data={itemListSchema} />
             <div className="mb-12 text-center">
                 <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
                     Fighting Styles
