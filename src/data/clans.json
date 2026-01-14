@@ -394,5 +394,144 @@
             "Clone Creation",
             "Swarm"
         ]
+    },
+    {
+        "id": "thunder-god",
+        "name": "Thunder God",
+        "rarity": 0.03,
+        "tier": "S+",
+        "description": "Control lightning with a Volume Meter system. Fill the meter by dealing damage to unleash devastating electric attacks.",
+        "grade": "Special Grade",
+        "image": "/images/clans/thunder-god.png",
+        "stats": {
+            "Type": "Special Grade",
+            "Domain": "Raijin",
+            "Passive": "Volume Meter"
+        },
+        "moves": [
+            "Turn up the Volume",
+            "Dispel",
+            "Energized Sprint",
+            "Lightning Reflex",
+            "Sonic Speed",
+            "Mythical Beast Amber",
+            "Domain: Raijin"
+        ]
+    },
+    {
+        "id": "soul-king",
+        "name": "Soul King",
+        "rarity": 0.03,
+        "tier": "S+",
+        "description": "A powerful technique with Soul Style mechanic. Build damage rank through varied attacks for multiplicative damage gains.",
+        "grade": "Special Grade",
+        "image": "/images/clans/soul-king.png",
+        "stats": {
+            "Type": "Special Grade",
+            "Domain": "Hometown Memories",
+            "Passive": "Soul Style Rank"
+        },
+        "moves": [
+            "Spiteful Blows",
+            "Don't Blink",
+            "Spliced Cannon",
+            "Dismantled Soul",
+            "Superhuman Blitz",
+            "Black Flash Beatdown",
+            "End The Cycle",
+            "Domain: Hometown Memories"
+        ]
+    },
+    {
+        "id": "ancient-construction",
+        "name": "Ancient Construction",
+        "rarity": 0.04,
+        "tier": "S+",
+        "description": "Construct and manipulate liquid metal for offense and defense. Includes flight capability via Insect Armor.",
+        "grade": "Special Grade",
+        "image": "/images/clans/ancient-construction.png",
+        "stats": {
+            "Type": "Special Grade",
+            "Domain": "Threefold Affliction",
+            "Passive": "Metal Control"
+        },
+        "moves": [
+            "Metal Barrage",
+            "Metal Rain",
+            "Metal Dash",
+            "Metal Spikes",
+            "Insect Armor",
+            "Maximum: True Sphere",
+            "Domain: Threefold Affliction"
+        ]
+    },
+    {
+        "id": "plant-manipulation",
+        "name": "Plant Manipulation",
+        "rarity": 2.75,
+        "tier": "A",
+        "description": "Control plant life to create obstacles and impair movement. Certain attacks apply Bleed status.",
+        "grade": "Legendary",
+        "image": "/images/clans/plant-manipulation.png",
+        "stats": {
+            "Type": "Legendary",
+            "Domain": "Blooming Ocean of Flowers",
+            "Effect": "Bleed/Slow"
+        },
+        "moves": [
+            "Branch Strike",
+            "Hex Seeds",
+            "Nature's Embrace",
+            "Field of Tranquility",
+            "Blooming Thorns",
+            "Domain: Blooming Ocean of Flowers"
+        ]
+    },
+    {
+        "id": "puppet",
+        "name": "Puppet (Mechamaru)",
+        "rarity": 2.75,
+        "tier": "A",
+        "description": "Mechamaru's cursed technique. Deploy turrets and unleash electrical attacks with your mechanical body.",
+        "grade": "Legendary",
+        "image": "/images/clans/puppet.png",
+        "stats": {
+            "Type": "Legendary",
+            "Maximum": "Absolute Mode",
+            "Style": "Ranged/AoE"
+        },
+        "moves": [
+            "Cursed Shock",
+            "Aerial Reinforcements",
+            "Shock Blade",
+            "Turrets",
+            "Plasma Core Overdrive",
+            "Mecha Rush",
+            "Absolute Mode"
+        ]
+    },
+    {
+        "id": "projection",
+        "name": "Projection (Naobito)",
+        "rarity": 2.75,
+        "tier": "A",
+        "description": "Turn surrounding air into frozen frames. Shattered enemies take increased damage. Based on 24 FPS animation.",
+        "grade": "Legendary",
+        "image": "/images/clans/projection.png",
+        "stats": {
+            "Type": "Legendary",
+            "Domain": "Time Cell Moon Palace",
+            "Passive": "Frame Freeze"
+        },
+        "moves": [
+            "Framestack Punch",
+            "Keyframe Kick",
+            "Frame Flicker",
+            "Frame Barrage",
+            "Framebreak Combo",
+            "Frame Counter",
+            "Frame Rewind",
+            "Domain: Time Cell Moon Palace"
+        ]
     }
 ]

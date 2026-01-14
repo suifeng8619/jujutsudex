@@ -5,9 +5,7 @@
         "grade": "Special Grade",
         "source": "Curse Market / Drop",
         "value": "15 Fingers",
-        "description": "A legendary tool that forces the stoppage of any innate technique. The ultimate counter to sorcery.",
-        "howToObtain": "Legendary drop from Hidden Inventory Boss or Trade",
-        "tips": "Use 'Throat Gouge' to silence enemy casting for 3 seconds.",
+        "description": "A legendary tool that forces the stoppage of any innate technique.",
         "stats": {
             "Passive": "Nullify (Bypass iFrames)",
             "Buff": "+5% M1/Crit DMG"
@@ -25,9 +23,7 @@
         "grade": "Special Grade",
         "source": "Sorcerer Killer Raid / Craft",
         "value": "100 Chains",
-        "description": "A three-section staff that embodies pure physical force. The only special grade tool with no cursed technique.",
-        "howToObtain": "Defeat Toji Fushiguro in the Raid",
-        "tips": "Damage scales purely off your Strength stat, not Cursed Energy.",
+        "description": "A three-section staff that embodies pure physical force.",
         "stats": {
             "Type": "Pure Strength",
             "Effect": "Guard Break"
@@ -44,9 +40,7 @@
         "grade": "Special Grade",
         "source": "Judgeman Domain (RPS Win)",
         "value": "N/A",
-        "description": "A sword that kills anyone it cuts without fail. Manifested by Higuruma's domain.",
-        "howToObtain": "Temporarily obtained by winning a Death Sentence case with Judgeman",
-        "tips": "You only have one swing. Don't miss.",
+        "description": "A sword that kills anyone it cuts without fail.",
         "stats": {
             "Effect": "One Shot Kill",
             "Condition": "Domain Win"
@@ -63,9 +57,7 @@
         "grade": "Special Grade",
         "source": "Soul Curse Raid",
         "value": "100 Transfigured Humans",
-        "description": "A blade that cuts directly at the soul. Ignores physical durability.",
-        "howToObtain": "Craft using 50 Soul Shards",
-        "tips": "Effective against tanky enemies like Hanami or Mahito.",
+        "description": "A blade that cuts directly at the soul.",
         "stats": {
             "Effect": "Soul Damage",
             "Bypass": "Durability"
@@ -82,9 +74,7 @@
         "grade": "Special Grade",
         "source": "Cursed School Chest",
         "value": "200 Keys",
-        "description": "A thick blade that stores and releases kinetic energy from impacts.",
-        "howToObtain": "Rare find in Kyoto School Exchange event chests",
-        "tips": "Block attacks to charge up the blade, then release for explosive damage.",
+        "description": "A thick blade that stores and releases kinetic energy.",
         "stats": {
             "Active": "Kinetic Charge",
             "Effect": "Explosive DMG"
@@ -98,12 +88,10 @@
     {
         "id": "slaughter-demon",
         "name": "Slaughter Demon",
-        "grade": "Uncommon",
+        "grade": "Rare",
         "source": "Grade 3 / Clan Head",
         "value": "Free",
-        "description": "A dagger infused with cursed energy. Good for beginners.",
-        "howToObtain": "Given by Gojo during the tutorial quest",
-        "tips": "Keep it until you find a Grade 1 weapon.",
+        "description": "A dagger infused with cursed energy.",
         "stats": {
             "Buff": "+5% DMG, +10% Speed"
         },
@@ -112,5 +100,165 @@
             "Demon Chop"
         ],
         "image": "/images/tools/slaughter-demon.png"
+    },
+    {
+        "id": "blood-sword",
+        "name": "Blood Sword",
+        "grade": "Special Grade",
+        "source": "Yasohachi Bridge Investigation / 200 Keys",
+        "value": "200 Yasohachi Bridge Keys",
+        "description": "Crafted from the remains of a curse made of blood with a demon inside it.",
+        "stats": {
+            "M1": "92+ DMG",
+            "Range": "Close-Medium",
+            "Effect": "Blood Orbs"
+        },
+        "moves": [
+            "Demon Slashes",
+            "Blood Pact"
+        ],
+        "image": "/images/tools/blood-sword.png"
+    },
+    {
+        "id": "viscera-scythe",
+        "name": "Viscera Scythe",
+        "grade": "Special Grade",
+        "source": "Tokyo Subway Investigation / 200 Keys",
+        "value": "200 Tokyo Subway Keys",
+        "description": "A grotesque weapon formed from the essence of viscera that reaps life force.",
+        "stats": {
+            "M1": "93.1 DMG",
+            "Level": "300+",
+            "Range": "Close"
+        },
+        "moves": [
+            "Visceral Frenzy",
+            "Rending Sawblade",
+            "Sweeping Maim"
+        ],
+        "image": "/images/tools/viscera-scythe.png"
+    },
+    {
+        "id": "electric-staff",
+        "name": "Electric Staff",
+        "grade": "Special Grade",
+        "source": "Cursed School Investigation / 200 Keys",
+        "value": "200 Cursed School Keys",
+        "description": "A staff imbued with electric cursed energy, originating from Kashimo.",
+        "stats": {
+            "M1": "92.2 DMG",
+            "Level": "60+",
+            "Range": "Close-Medium"
+        },
+        "moves": [
+            "Electric Sweep",
+            "Electric Bolt"
+        ],
+        "image": "/images/tools/electric-staff.png"
+    },
+    {
+        "id": "feathered-spear",
+        "name": "Feathered Spear",
+        "grade": "Special Grade",
+        "source": "Shijo Town Set (0.5%)",
+        "value": "Chest Drop",
+        "description": "A powerful spear formerly used by one of Jujutsu High's strongest sorcerers (Maki Zenin).",
+        "stats": {
+            "M1": "95.8 DMG",
+            "Z": "351.3 DMG",
+            "X": "614.7 DMG"
+        },
+        "moves": [
+            "Quilled Javelin",
+            "Piercing Plumage"
+        ],
+        "image": "/images/tools/feathered-spear.png"
+    },
+    {
+        "id": "vengeance",
+        "name": "Vengeance",
+        "grade": "Special Grade",
+        "source": "Yuki Fortress Set (0.5%) / World Drop",
+        "value": "Rare Drop",
+        "description": "What do you fight for? A weapon with clone-summoning abilities.",
+        "stats": {
+            "Level": "420+",
+            "Range": "Close-Medium",
+            "Style": "Clone Combat"
+        },
+        "moves": [
+            "Unforgiving Snow",
+            "Wilting Snow",
+            "Rising Snow"
+        ],
+        "image": "/images/tools/vengeance.png"
+    },
+    {
+        "id": "jet-black",
+        "name": "Jet Black",
+        "grade": "Special Grade",
+        "source": "Chest Drop",
+        "value": "Rare",
+        "description": "Crafted from the remains of a powerful curse-born dragon with unmatched strength.",
+        "stats": {
+            "Type": "Melee",
+            "Range": "Close"
+        },
+        "moves": [],
+        "image": "/images/tools/jet-black.png"
+    },
+    {
+        "id": "ravenous-axe",
+        "name": "Ravenous Axe",
+        "grade": "Special Grade",
+        "source": "Numa Temple / Kura Camp Set (0.5%)",
+        "value": "Chest Drop",
+        "description": "An axe formed from cursed crows, inspired by Mei Mei's Black Bird Manipulation.",
+        "stats": {
+            "M1": "105.8 DMG",
+            "Level": "120+",
+            "Range": "Close"
+        },
+        "moves": [
+            "Ravenous Flock",
+            "Crow Strike",
+            "Flock of Many"
+        ],
+        "image": "/images/tools/ravenous-axe.png"
+    },
+    {
+        "id": "the-impossible-dream",
+        "name": "The Impossible Dream",
+        "grade": "Special Grade",
+        "source": "High Level Drop",
+        "value": "420+",
+        "description": "To reach the unreachable star. References Don Quixote's weapon from Limbus Company.",
+        "stats": {
+            "M1": "104.8 DMG",
+            "Z": "541.6 DMG",
+            "Range": "Close"
+        },
+        "moves": [
+            "Le Sangre De Sancho",
+            "Thrust"
+        ],
+        "image": "/images/tools/the-impossible-dream.png"
+    },
+    {
+        "id": "turbo-mask",
+        "name": "Turbo Mask",
+        "grade": "Legendary",
+        "source": "Winter Event (Limited)",
+        "value": "Event Only",
+        "description": "A cursed tool containing the spirit Turbo Granny, inspired by DanDaDan.",
+        "stats": {
+            "Passive": "Speed Boost on Skill Use",
+            "Range": "Close"
+        },
+        "moves": [
+            "Squat Rush",
+            "Cannonball"
+        ],
+        "image": "/images/tools/turbo-mask.png"
     }
 ]

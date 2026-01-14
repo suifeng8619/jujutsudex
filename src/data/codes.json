@@ -1,26 +1,26 @@
 [
   {
+    "id": "winter_event_out",
+    "code": "WINTER_EVENT_OUT",
+    "reward": "100 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": true
+  },
+  {
+    "id": "winter_soon",
+    "code": "WINTER_SOON",
+    "reward": "50 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": true
+  },
+  {
     "id": "happy_2026",
     "code": "HAPPY_2026",
     "reward": "100 Spins",
     "status": "active",
-    "lastChecked": "2026-01-12",
-    "isNew": true
-  },
-  {
-    "id": "soul_king_out",
-    "code": "SOUL_KING_OUT",
-    "reward": "100 Spins",
-    "status": "active",
-    "lastChecked": "2026-01-12",
-    "isNew": true
-  },
-  {
-    "id": "exchange_soon",
-    "code": "EXCHANGE_SOON",
-    "reward": "400 Spins",
-    "status": "active",
-    "lastChecked": "2026-01-12",
+    "lastChecked": "2026-01-14",
     "isNew": false
   },
   {
@@ -28,7 +28,15 @@
     "code": "95_PERCENT",
     "reward": "50 Spins",
     "status": "active",
-    "lastChecked": "2026-01-12",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "exchange_50",
+    "code": "EXCHANGE_50",
+    "reward": "50 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
     "isNew": false
   },
   {
@@ -36,7 +44,23 @@
     "code": "EXCHANGE_OUT",
     "reward": "100 Spins",
     "status": "active",
-    "lastChecked": "2026-01-12",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "its_december",
+    "code": "ITS_DECEMBER",
+    "reward": "400 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "exchange_soon",
+    "code": "EXCHANGE_SOON",
+    "reward": "400 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
     "isNew": false
   },
   {
@@ -44,7 +68,7 @@
     "code": "EXCHANGE_20K",
     "reward": "400 Spins",
     "status": "active",
-    "lastChecked": "2026-01-12",
+    "lastChecked": "2026-01-14",
     "isNew": false
   },
   {
@@ -52,7 +76,7 @@
     "code": "SOULKING_20K",
     "reward": "400 Spins",
     "status": "active",
-    "lastChecked": "2026-01-12",
+    "lastChecked": "2026-01-14",
     "isNew": false
   },
   {
@@ -60,7 +84,7 @@
     "code": "2025_CHRISTMAS",
     "reward": "400 Spins",
     "status": "active",
-    "lastChecked": "2026-01-12",
+    "lastChecked": "2026-01-14",
     "isNew": false
   },
   {
@@ -68,21 +92,103 @@
     "code": "20KWINTER",
     "reward": "400 Spins",
     "status": "active",
-    "lastChecked": "2026-01-12",
+    "lastChecked": "2026-01-14",
     "isNew": false
-  },
-  {
-    "id": "its_december",
-    "code": "ITS_DECEMBER",
-    "reward": "50 Spins",
-    "status": "expired",
-    "lastChecked": "2026-01-01"
   },
   {
     "id": "happy_thanksgiving",
     "code": "HAPPY_THANKSGIVING",
     "reward": "100 Spins",
-    "status": "expired",
-    "lastChecked": "2025-11-30"
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "november_yay",
+    "code": "NOVEMBER_YAY",
+    "reward": "50 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "hallow_shutdown",
+    "code": "HALLOW_SHUTDOWN",
+    "reward": "25 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "hallowed_20k",
+    "code": "HALLOWED_20K",
+    "reward": "100 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "happy_halloween",
+    "code": "HAPPY_HALLOWEEN",
+    "reward": "100 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "halloween_soon",
+    "code": "HALLOWEEN_SOON",
+    "reward": "50 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "happy_october",
+    "code": "HAPPY_OCTOBER",
+    "reward": "50 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "hello_friends",
+    "code": "HELLO_FRIENDS",
+    "reward": "100 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "jji_awesome",
+    "code": "JJI_AWESOME",
+    "reward": "100 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "plant_manip_20k",
+    "code": "PLANT_MANIP_20K",
+    "reward": "100 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "plant_manip_out",
+    "code": "PLANT_MANIP_OUT",
+    "reward": "100 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
+  },
+  {
+    "id": "plant_soon",
+    "code": "PLANT_SOON",
+    "reward": "50 Spins",
+    "status": "active",
+    "lastChecked": "2026-01-14",
+    "isNew": false
   }
 ]
