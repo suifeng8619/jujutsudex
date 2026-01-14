@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import Link from 'next/link';
-import { Crown, Disc, BookOpen, Sword, Zap, Star, Sparkles, HandMetal, Shirt, Flame, Timer, BarChart3 } from 'lucide-react';
+import { Crown, Disc, BookOpen, Sword, Zap, Star, Sparkles, HandMetal, Shirt, Flame, Timer, LucideIcon } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Clan, Code, Tool } from '@/types';
 
@@ -50,14 +50,14 @@ function FeatureCard({ href, icon: Icon, title, description, color }: FeatureCar
   );
 }
 
-function StatItem({ value, label, icon: Icon }: { value: string, label: string, icon: any }) {
+function StatItem({ value, label, icon: Icon }: { value: string; label: string; icon: LucideIcon }) {
   return (
-    <div className="flex flex-col items-center justify-center p-4 text-center">
-      <div className="mb-2 flex h-10 w-10 items-center justify-center rounded-full bg-purple-900/20 text-purple-400">
-        <Icon className="h-5 w-5" />
+    <div className="flex flex-col items-center justify-center p-4 sm:p-5 text-center bg-black/40 sm:bg-transparent">
+      <div className="mb-2 flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-full bg-purple-900/20 text-purple-400">
+        <Icon className="h-4 w-4 sm:h-5 sm:w-5" />
       </div>
-      <span className="text-2xl font-bold text-white">{value}</span>
-      <span className="text-xs font-medium uppercase tracking-wider text-neutral-500">{label}</span>
+      <span className="text-xl sm:text-2xl font-bold text-white">{value}</span>
+      <span className="text-[10px] sm:text-xs font-medium uppercase tracking-wider text-neutral-500">{label}</span>
     </div>
   );
 }
@@ -108,14 +108,14 @@ export default async function Home() {
       <JsonLd data={jsonLd} />
       <main className="flex-1">
 
-        <Hero />
+        <Hero activeCodeCount={codes.filter(c => c.status === "active").length} />
 
         {/* Live Stats Row */}
         <div className="border-b border-white/5 bg-black/40">
-          <div className="container mx-auto px-4">
-            <div className="grid grid-cols-2 divide-x divide-white/5 border-x border-white/5 sm:grid-cols-4">
-              <StatItem value={`${clans.length}+`} label="Clans" icon={BookOpen} />
-              <StatItem value="30+" label="Techniques" icon={Zap} />
+          <div className="container mx-auto px-4 py-2 sm:py-0">
+            <div className="grid grid-cols-2 gap-px bg-white/5 sm:grid-cols-4 sm:divide-x sm:divide-white/5 sm:border-x sm:border-white/5 sm:gap-0 sm:bg-transparent rounded-lg sm:rounded-none overflow-hidden">
+              <StatItem value={`${clans.length}+`} label="Innate Techniques" icon={BookOpen} />
+              <StatItem value={`${tools.length}+`} label="Cursed Tools" icon={Sword} />
               <StatItem value="11" label="Fighting Styles" icon={HandMetal} />
               <StatItem value={`${codes.filter(c => c.status === "active").length}`} label="Active Codes" icon={Timer} />
             </div>

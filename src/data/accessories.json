@@ -141,5 +141,278 @@
             "Effect": "-15% Defense (Tradeoff)"
         },
         "image": "/images/clans/star-rage.png"
+    },
+    {
+        "id": "six-eyes-blindfold",
+        "name": "Six Eyes Blindfold",
+        "type": "Headgear",
+        "rarity": "Special Grade",
+        "description": "A sacred blindfold that limits overwhelming visual input. Reserved for those with the Six Eyes technique. Reduces CE consumption significantly.",
+        "howToObtain": "Unlock Limitless Clan with Six Eyes passive",
+        "stats": {
+            "Buff": "-30% CE Consumption",
+            "Effect": "Technique Sight Enhancement"
+        },
+        "image": "/images/clans/gojo.png"
+    },
+    {
+        "id": "sukuna-finger-ring",
+        "name": "Sukuna Finger Ring",
+        "type": "Ring",
+        "rarity": "Special Grade",
+        "description": "A ring crafted to hold a fragment of Sukuna's power. Grants immense strength but corrupts the user over time.",
+        "howToObtain": "Collect all 20 Sukuna Fingers in Story Mode",
+        "stats": {
+            "Buff": "+25% All Stats",
+            "Effect": "Corruption Gauge +5%/min"
+        },
+        "image": "/images/clans/sukuna.png"
+    },
+    {
+        "id": "shadow-cloak",
+        "name": "Ten Shadows Cloak",
+        "type": "Cape",
+        "rarity": "Legendary",
+        "description": "A cloak woven from shadow essence. Allows partial concealment in darkness and enhances shadow-based techniques.",
+        "howToObtain": "Complete Megumi's Training Arc",
+        "stats": {
+            "Buff": "+20% Shikigami DMG",
+            "Effect": "Shadow Stealth in Dark Areas"
+        },
+        "image": "/images/clans/ten-shadows.png"
+    },
+    {
+        "id": "blood-vial-pendant",
+        "name": "Blood Vial Pendant",
+        "type": "Necklace",
+        "rarity": "Legendary",
+        "description": "A pendant containing preserved Kamo clan blood. Enhances blood manipulation techniques and provides emergency HP recovery.",
+        "howToObtain": "Reach Master rank with Blood Manipulation Clan",
+        "stats": {
+            "Buff": "+15% Blood Technique DMG",
+            "Effect": "Emergency Heal (Once per battle)"
+        },
+        "image": "/images/clans/blood-manipulation.png"
+    },
+    {
+        "id": "curse-absorbing-gloves",
+        "name": "Curse Absorbing Gloves",
+        "type": "Gloves",
+        "rarity": "Rare",
+        "description": "Reinforced gloves that absorb residual cursed energy on contact. Essential gear for close-combat sorcerers.",
+        "howToObtain": "Clear Floor 50 of Infinite Tower",
+        "stats": {
+            "Buff": "+10% Melee DMG",
+            "Effect": "Absorb 5% CE on hit"
+        },
+        "image": "/images/tools/playful-cloud.png"
+    },
+    {
+        "id": "jujutsu-high-badge",
+        "name": "Jujutsu High Badge",
+        "type": "Badge",
+        "rarity": "Common",
+        "description": "Official badge of Tokyo Jujutsu High. Shows your affiliation and grants access to school facilities.",
+        "howToObtain": "Complete Tutorial / Starting Item",
+        "stats": {
+            "Buff": "+5% EXP Gain",
+            "Effect": "School Facility Access"
+        },
+        "image": "/images/traits/dense.png"
+    },
+    {
+        "id": "domain-amplifier",
+        "name": "Domain Amplifier",
+        "type": "Charm",
+        "rarity": "Special Grade",
+        "description": "A rare artifact that amplifies domain expansion power. Only the strongest sorcerers can harness its full potential.",
+        "howToObtain": "Successfully cast Domain Expansion 100 times",
+        "stats": {
+            "Buff": "+40% Domain DMG",
+            "Effect": "Domain Duration +2s"
+        },
+        "image": "/images/awakenings/domain-expansion.png"
+    },
+    {
+        "id": "heavenly-chain",
+        "name": "Heavenly Restriction Chain",
+        "type": "Necklace",
+        "rarity": "Special Grade",
+        "description": "A chain that binds cursed energy in exchange for physical prowess. Used by those with Heavenly Restriction.",
+        "howToObtain": "Choose Heavenly Restriction path at character creation",
+        "stats": {
+            "Buff": "+50% Physical Stats",
+            "Effect": "CE Skills Disabled"
+        },
+        "image": "/images/clans/toji.png"
+    },
+    {
+        "id": "reverse-cursed-bracelet",
+        "name": "Reverse Cursed Bracelet",
+        "type": "Bracelet",
+        "rarity": "Legendary",
+        "description": "A bracelet infused with reverse cursed technique energy. Provides passive healing over time.",
+        "howToObtain": "Unlock Reverse Cursed Technique skill",
+        "stats": {
+            "Buff": "+5 HP/sec Regen",
+            "Effect": "Auto-heal below 30% HP"
+        },
+        "image": "/images/awakenings/rct.png"
+    },
+    {
+        "id": "black-flash-gauntlets",
+        "name": "Black Flash Gauntlets",
+        "type": "Gloves",
+        "rarity": "Legendary",
+        "description": "Gauntlets designed to channel the power of Black Flash. Increases critical hit damage significantly.",
+        "howToObtain": "Land 50 Black Flash hits",
+        "stats": {
+            "Buff": "+35% Crit DMG",
+            "Effect": "Black Flash chance +5%"
+        },
+        "image": "/images/awakenings/black-flash.png"
+    },
+    {
+        "id": "cursed-speech-mask",
+        "name": "Cursed Speech Mask",
+        "type": "Mask",
+        "rarity": "Legendary",
+        "description": "A mask that amplifies vocal cursed energy. Reduces the backlash from using Cursed Speech commands.",
+        "howToObtain": "Complete Inumaki's Voice Training Quest",
+        "stats": {
+            "Buff": "+20% Speech DMG",
+            "Effect": "Self-damage reduced by 50%"
+        },
+        "image": "/images/clans/cursed-speech.png"
+    },
+    {
+        "id": "gambler-dice-earring",
+        "name": "Gambler's Dice Earring",
+        "type": "Earring",
+        "rarity": "Legendary",
+        "description": "Lucky dice earrings favored by Hakari. Increases luck-based effects and jackpot chances.",
+        "howToObtain": "Win the Pachinko Minigame Jackpot",
+        "stats": {
+            "Buff": "+25% Luck",
+            "Effect": "Double rewards chance +10%"
+        },
+        "image": "/images/clans/gambler.png"
+    },
+    {
+        "id": "iron-will-belt",
+        "name": "Iron Will Belt",
+        "type": "Belt",
+        "rarity": "Rare",
+        "description": "A reinforced belt that stabilizes the body during intense combat. Reduces stagger and knockback effects.",
+        "howToObtain": "Complete Endurance Training (10 rounds)",
+        "stats": {
+            "Buff": "+30% Stagger Resist",
+            "Effect": "Knockback reduced by 50%"
+        },
+        "image": "/images/fighting-styles/wrestling.png"
+    },
+    {
+        "id": "todo-friendship-band",
+        "name": "Best Friend Band",
+        "type": "Bracelet",
+        "rarity": "Rare",
+        "description": "A bracelet symbolizing true friendship. Boosts stats when fighting alongside allies. Todo would approve.",
+        "howToObtain": "Complete 100 Co-op missions",
+        "stats": {
+            "Buff": "+15% Team Buff Range",
+            "Effect": "+10% All Stats in Co-op"
+        },
+        "image": "/images/clans/boogie-woogie.png"
+    },
+    {
+        "id": "nanami-watch",
+        "name": "7:3 Precision Watch",
+        "type": "Accessory",
+        "rarity": "Legendary",
+        "description": "Nanami's signature watch. Helps identify weak points and increases critical hit accuracy.",
+        "howToObtain": "Work 1000 hours (in-game time tracking)",
+        "stats": {
+            "Buff": "+20% Weak Point DMG",
+            "Effect": "Guaranteed Crit at 7:3 ratio"
+        },
+        "image": "/images/clans/ratio-technique.png"
+    },
+    {
+        "id": "cursed-energy-detector",
+        "name": "CE Detector Lens",
+        "type": "Eyewear",
+        "rarity": "Rare",
+        "description": "Special lenses that visualize cursed energy flow. Helps identify hidden enemies and traps.",
+        "howToObtain": "Purchase from Tech Shop (100,000 Yen)",
+        "stats": {
+            "Buff": "Enemy CE Visible",
+            "Effect": "Trap Detection Range +10m"
+        },
+        "image": "/images/tools/inverted-spear.png"
+    },
+    {
+        "id": "binding-vow-seal",
+        "name": "Binding Vow Seal",
+        "type": "Charm",
+        "rarity": "Special Grade",
+        "description": "A powerful seal used to create binding vows. Allows trading one stat for another at enhanced rates.",
+        "howToObtain": "Learn about Binding Vows from Gojo NPC",
+        "stats": {
+            "Buff": "Custom Stat Trade",
+            "Effect": "1.5x conversion rate"
+        },
+        "image": "/images/awakenings/simple-domain.png"
+    },
+    {
+        "id": "storage-curse-bag",
+        "name": "Cursed Tool Storage Bag",
+        "type": "Bag",
+        "rarity": "Rare",
+        "description": "A bag with expanded interior space using cursed energy. Increases inventory capacity significantly.",
+        "howToObtain": "Reach Level 25",
+        "stats": {
+            "Buff": "+20 Inventory Slots",
+            "Effect": "Quick-swap enabled"
+        },
+        "image": "/images/tools/chain-of-1000-miles.png"
+    },
+    {
+        "id": "mahito-earring",
+        "name": "Soul Resonance Earring",
+        "type": "Earring",
+        "rarity": "Legendary",
+        "description": "An earring that vibrates with soul energy. Increases soul-based technique effectiveness.",
+        "howToObtain": "Defeat Mahito in Hard Mode",
+        "stats": {
+            "Buff": "+25% Soul DMG",
+            "Effect": "Ignore 10% Soul Defense"
+        },
+        "image": "/images/clans/soul-manipulation.png"
+    },
+    {
+        "id": "training-weights",
+        "name": "Cursed Training Weights",
+        "type": "Accessory",
+        "rarity": "Uncommon",
+        "description": "Heavy weights infused with cursed energy. Slow movement but increase strength gains.",
+        "howToObtain": "Purchase from Gym (10,000 Yen)",
+        "stats": {
+            "Buff": "+50% STR EXP",
+            "Effect": "-20% Movement Speed"
+        },
+        "image": "/images/fighting-styles/boxing.png"
+    },
+    {
+        "id": "nobara-hairpin",
+        "name": "Resonance Hairpin",
+        "type": "Headgear",
+        "rarity": "Legendary",
+        "description": "Nobara's iconic hairpin. Enhances Straw Doll techniques and allows for precise curse manipulation.",
+        "howToObtain": "Complete Nobara's Combat Training",
+        "stats": {
+            "Buff": "+20% Straw Doll DMG",
+            "Effect": "Resonance Range +5m"
+        },
+        "image": "/images/clans/straw-doll.png"
     }
 ]

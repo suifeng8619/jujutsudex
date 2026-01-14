@@ -85,7 +85,7 @@
             "Damage": "High",
             "Speed": "Fast"
         },
-        "image": "/images/clans/ratio.png"
+        "image": "/images/clans/ratio-technique.png"
     },
     {
         "id": "muay-thai",
@@ -151,7 +151,7 @@
             "Damage": "Extreme",
             "Speed": "Slow"
         },
-        "image": "/images/clans/heavenly-restriction.png"
+        "image": "/images/clans/toji.png"
     },
     {
         "id": "karate",

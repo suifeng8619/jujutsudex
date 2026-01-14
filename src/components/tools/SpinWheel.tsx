@@ -1,8 +1,8 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Clan } from '@/types';
-import { spinClan, simulateSpins } from '@/lib/game-logic';
+import { spinClan } from '@/lib/game-logic';
 import { Loader2, Sparkles, RefreshCw, Trophy } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -12,7 +12,6 @@ interface SpinWheelProps {
 
 export function SpinWheel({ clans }: SpinWheelProps) {
     const [isSpinning, setIsSpinning] = useState(false);
-    const [currentClan, setCurrentClan] = useState<Clan | null>(null);
     const [history, setHistory] = useState<Clan[]>([]);
     const [stats, setStats] = useState({ totalspins: 0, bestPull: null as Clan | null });
 
@@ -39,7 +38,6 @@ export function SpinWheel({ clans }: SpinWheelProps) {
 
     const finishSpin = () => {
         const result = spinClan(clans);
-        setCurrentClan(result);
         setDisplayClan(result);
         setIsSpinning(false);
 

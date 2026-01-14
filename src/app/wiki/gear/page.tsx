@@ -10,45 +10,34 @@ export const metadata: Metadata = {
     description: 'Browse the best gear in Jujutsu Infinite. Stats for Soul Ring, Sorcerer Killer Set, and more.',
 };
 
+interface RawGearItem {
+    id: string;
+    name: string;
+    type?: string;
+    rarity: string;
+    description: string;
+    stats: { [key: string]: string };
+    image?: string;
+    obtained_from?: string;
+    howToObtain?: string;
+}
+
 async function getAccessories(): Promise<GearItem[]> {
     const filePath = path.join(process.cwd(), 'src/data/accessories.json');
     const fileContents = await fs.readFile(filePath, 'utf8');
-    const data = JSON.parse(fileContents);
-    // Add type 'Accessory' if missing or ensure compatibility
-    return data.map((item: any) => ({ ...item, type: item.type || 'Accessory' }));
+    const data: RawGearItem[] = JSON.parse(fileContents);
+    return data.map((item) => ({ ...item, type: (item.type || 'Accessory') as 'Accessory' | 'Outfit' }));
 }
 
 async function getOutfits(): Promise<GearItem[]> {
     const filePath = path.join(process.cwd(), 'src/data/outfits.json');
     const fileContents = await fs.readFile(filePath, 'utf8');
-    const data = JSON.parse(fileContents);
-    // Add type 'Outfit'
-    return data.map((item: any) => ({ ...item, type: 'Outfit' }));
+    const data: RawGearItem[] = JSON.parse(fileContents);
+    return data.map((item) => ({ ...item, type: 'Outfit' as const }));
 }
 
-export default async function GearPage() {
-    const [accessories, outfits] = await Promise.all([
-        getAccessories(),
-        getOutfits()
-    ]);
-
-    const allItems = [...accessories, ...outfits];
-    const itemListSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'ItemList',
-        itemListElement: allItems.map((item, index) => ({
-            '@type': 'ListItem',
-            position: index + 1,
-            item: {
-                '@type': 'Product',
-                name: item.name,
-                description: item.description,
-                image: item.image ? `https://jujutsudex.com${item.image}` : undefined,
-            }
-        }))
-    };
-
-    const GearSection = ({ title, items }: { title: string, items: GearItem[] }) => (
+function GearSection({ title, items }: { title: string; items: GearItem[] }) {
+    return (
         <section className="mb-16">
             <div className="mb-6 flex items-center gap-3">
                 <div className="h-8 w-1 rounded-full bg-gradient-to-b from-purple-600 to-purple-800" />
@@ -117,6 +106,29 @@ export default async function GearPage() {
             </div>
         </section>
     );
+}
+
+export default async function GearPage() {
+    const [accessories, outfits] = await Promise.all([
+        getAccessories(),
+        getOutfits()
+    ]);
+
+    const allItems = [...accessories, ...outfits];
+    const itemListSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: allItems.map((item, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            item: {
+                '@type': 'Product',
+                name: item.name,
+                description: item.description,
+                image: item.image ? `https://jujutsudex.com${item.image}` : undefined,
+            }
+        }))
+    };
 
     return (
         <div className="container mx-auto px-4 py-12">

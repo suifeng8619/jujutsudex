@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export function SeoContent() {
     return (
         <section className="border-t border-white/5 bg-black py-20">
@@ -9,7 +7,7 @@ export function SeoContent() {
                     <div className="space-y-6">
                         <h2 className="text-3xl font-bold text-white">Ultimate Guide to Jujutsu Infinite</h2>
                         <p className="text-lg text-neutral-400 leading-relaxed">
-                            Welcome to the premier destination for all things <strong>Jujutsu Infinite</strong>. Whether you are a newly awakened sorcerer looking for your first technique or a special grade veteran hunting for the Inverted Spear of Heaven, our comprehensive database is built to help you dominate. Jujutsu Infinite is a complex Roblox RPG inspired by Gege Akutami's manga, requiring deep knowledge of stats, cursed energy, and innate techniques to succeed.
+                            Welcome to the premier destination for all things <strong>Jujutsu Infinite</strong>. Whether you are a newly awakened sorcerer looking for your first technique or a special grade veteran hunting for the Inverted Spear of Heaven, our comprehensive database is built to help you dominate. Jujutsu Infinite is a complex Roblox RPG inspired by Gege Akutami&apos;s manga, requiring deep knowledge of stats, cursed energy, and innate techniques to succeed.
                         </p>
                     </div>
 

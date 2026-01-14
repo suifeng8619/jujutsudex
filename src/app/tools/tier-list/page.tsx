@@ -17,13 +17,14 @@ async function getClans(): Promise<Clan[]> {
     return JSON.parse(fileContents);
 }
 
-const tierOrder = ['S+', 'S', 'A', 'B', 'C'];
+const tierOrder = ['S+', 'S', 'A', 'B', 'C', 'D'];
 const tierColors: { [key: string]: string } = {
     'S+': 'bg-red-600 border-red-500 text-white',
     'S': 'bg-orange-500 border-orange-400 text-white',
     'A': 'bg-purple-500 border-purple-400 text-white',
     'B': 'bg-blue-500 border-blue-400 text-white',
     'C': 'bg-neutral-600 border-neutral-500 text-neutral-200',
+    'D': 'bg-neutral-700 border-neutral-600 text-neutral-300',
 };
 
 export default async function TierListPage() {

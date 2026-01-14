@@ -3,7 +3,8 @@
         "id": "sorcerer-killer-set",
         "name": "Sorcerer Killer Set",
         "rarity": "Special Grade",
-        "description": "The outfit worn by Toji Fushiguro. Enhances physical prowess to the limit.",
+        "description": "The outfit worn by Toji Fushiguro. Enhances physical prowess to the limit. Perfect for those who forsake cursed energy for raw power.",
+        "howToObtain": "Complete 'The Sorcerer Killer' storyline",
         "stats": {
             "Strength": "+25%",
             "Speed": "+20%",
@@ -15,7 +16,8 @@
         "id": "heian-era-robe",
         "name": "Heian Era Robe",
         "rarity": "Special Grade",
-        "description": "Ancient robes from the golden age of Jujutsu.",
+        "description": "Ancient robes from the golden age of Jujutsu. Worn by the most powerful sorcerers of the Heian period.",
+        "howToObtain": "Collect all 20 Sukuna Fingers",
         "stats": {
             "Technique": "+20%",
             "CE Cap": "+30%"
@@ -23,10 +25,24 @@
         "image": "/images/clans/sukuna.png"
     },
     {
+        "id": "gojo-infinity-suit",
+        "name": "Infinity White Suit",
+        "rarity": "Special Grade",
+        "description": "Gojo Satoru's signature all-white attire. The blindfold is sold separately. Radiates an aura of invincibility.",
+        "howToObtain": "Roll Limitless Clan and reach Max Mastery",
+        "stats": {
+            "CE Efficiency": "+25%",
+            "Style": "S-Tier",
+            "Intimidation": "+50%"
+        },
+        "image": "/images/clans/gojo.png"
+    },
+    {
         "id": "ocean-blue-sailor",
         "name": "Ocean Blue Sailor Vest",
         "rarity": "Legendary",
-        "description": "A stylish vest resembling Riko Amanai's uniform.",
+        "description": "A stylish vest resembling Riko Amanai's uniform. Brings back memories of the Star Plasma Vessel incident.",
+        "howToObtain": "Complete the Hidden Inventory arc",
         "stats": {
             "Regen": "+15%",
             "Agility": "+10%"
@@ -37,7 +53,8 @@
         "id": "magma-jacket",
         "name": "Magma Jacket",
         "rarity": "Legendary",
-        "description": "A jacket radiating intense heat.",
+        "description": "A jacket radiating intense heat. The fabric is woven with volcanic essence and resists extreme temperatures.",
+        "howToObtain": "Defeat Jogo Boss on Hard Mode",
         "stats": {
             "Fire DMG": "+10%",
             "Defense": "+15%"
@@ -46,12 +63,300 @@
     },
     {
         "id": "high-school-uniform",
-        "name": "Jujutsu High Uniform",
+        "name": "Tokyo Jujutsu High Uniform",
         "rarity": "Common",
-        "description": "Standard issue uniform for students.",
+        "description": "Standard issue uniform for Tokyo students. The classic black ensemble worn by first-years.",
+        "howToObtain": "Starting outfit / Complete Tutorial",
         "stats": {
             "EXP Gain": "+5%"
         },
-        "image": "/images/clans/gojo.png"
+        "image": "/images/traits/dense.png"
+    },
+    {
+        "id": "kyoto-uniform",
+        "name": "Kyoto Jujutsu High Uniform",
+        "rarity": "Common",
+        "description": "The traditional uniform of Kyoto's sorcerers. Features a more formal design compared to Tokyo's.",
+        "howToObtain": "Visit Kyoto Campus",
+        "stats": {
+            "Technique DMG": "+5%"
+        },
+        "image": "/images/clans/blood-manipulation.png"
+    },
+    {
+        "id": "todo-tracksuit",
+        "name": "Battle Brother Tracksuit",
+        "rarity": "Rare",
+        "description": "Todo's preferred combat attire. Designed for maximum mobility during intense battles and clapping sessions.",
+        "howToObtain": "Become Todo's Best Friend (Bond Level 10)",
+        "stats": {
+            "Swap Speed": "+15%",
+            "Friendship": "Max"
+        },
+        "image": "/images/clans/boogie-woogie.png"
+    },
+    {
+        "id": "nanami-business-suit",
+        "name": "7:3 Business Suit",
+        "rarity": "Legendary",
+        "description": "Nanami's impeccable business attire. Perfect for those who take their work seriously. Never work overtime.",
+        "howToObtain": "Complete 100 Missions before deadline",
+        "stats": {
+            "Weak Point DMG": "+20%",
+            "Overtime Mode": "Unlocked"
+        },
+        "image": "/images/clans/ratio-technique.png"
+    },
+    {
+        "id": "megumi-shadows-coat",
+        "name": "Ten Shadows Coat",
+        "rarity": "Legendary",
+        "description": "A dark coat that seems to absorb light. Megumi's signature long jacket that complements shadow techniques.",
+        "howToObtain": "Master all Divine Dogs variants",
+        "stats": {
+            "Shikigami DMG": "+15%",
+            "Shadow Affinity": "+20%"
+        },
+        "image": "/images/clans/ten-shadows.png"
+    },
+    {
+        "id": "nobara-combat-dress",
+        "name": "Straw Doll Combat Dress",
+        "rarity": "Legendary",
+        "description": "Nobara's stylish battle outfit. Never sacrifice fashion for function. Comes with tool belt for nails.",
+        "howToObtain": "Complete Nobara's Training Arc",
+        "stats": {
+            "Straw Doll DMG": "+15%",
+            "Style Points": "+100"
+        },
+        "image": "/images/clans/straw-doll.png"
+    },
+    {
+        "id": "yuji-hoodie",
+        "name": "Tiger Vessel Hoodie",
+        "rarity": "Rare",
+        "description": "Yuji Itadori's casual hoodie. Comfortable for everyday wear and sudden demon battles.",
+        "howToObtain": "Start as Vessel class",
+        "stats": {
+            "Physical DMG": "+10%",
+            "Comfort": "High"
+        },
+        "image": "/images/awakenings/black-flash.png"
+    },
+    {
+        "id": "hakari-gambler-outfit",
+        "name": "Jackpot Gambler Outfit",
+        "rarity": "Legendary",
+        "description": "Hakari's flashy gambling attire. Fortune favors the bold, and this outfit shows you mean business.",
+        "howToObtain": "Win Jackpot 10 times in Idle Death Gamble",
+        "stats": {
+            "Luck": "+30%",
+            "Jackpot Chance": "+5%"
+        },
+        "image": "/images/clans/gambler.png"
+    },
+    {
+        "id": "yuta-exchange-uniform",
+        "name": "Exchange Student Uniform",
+        "rarity": "Legendary",
+        "description": "Yuta Okkotsu's overseas uniform. Carries the weight of countless battles fought abroad.",
+        "howToObtain": "Complete African Arc storyline",
+        "stats": {
+            "Rika Bond": "+20%",
+            "CE Storage": "+25%"
+        },
+        "image": "/images/clans/curse-queen.png"
+    },
+    {
+        "id": "maki-combat-gear",
+        "name": "Zenin Combat Gear",
+        "rarity": "Legendary",
+        "description": "Maki's specialized combat outfit. Designed for those who rely on physical prowess and cursed tools.",
+        "howToObtain": "Clear Zenin Clan Dungeon",
+        "stats": {
+            "Tool DMG": "+20%",
+            "Physical Stats": "+15%"
+        },
+        "image": "/images/tools/playful-cloud.png"
+    },
+    {
+        "id": "inumaki-rice-ball-hoodie",
+        "name": "Rice Ball Hoodie",
+        "rarity": "Rare",
+        "description": "Inumaki's cozy hoodie with high collar. Perfect for hiding the snake-and-fangs seal on your tongue.",
+        "howToObtain": "Learn all Cursed Speech commands",
+        "stats": {
+            "Speech DMG": "+10%",
+            "Self-Damage": "-10%"
+        },
+        "image": "/images/clans/cursed-speech.png"
+    },
+    {
+        "id": "panda-fur-coat",
+        "name": "Cursed Corpse Coat",
+        "rarity": "Rare",
+        "description": "A fluffy coat inspired by Panda. Surprisingly warm and durable. Not made from actual pandas.",
+        "howToObtain": "Befriend Panda NPC",
+        "stats": {
+            "Defense": "+20%",
+            "Cold Resist": "+50%"
+        },
+        "image": "/images/clans/construction.png"
+    },
+    {
+        "id": "geto-monk-robe",
+        "name": "Curse User Monk Robe",
+        "rarity": "Special Grade",
+        "description": "The flowing robes worn by Geto Suguru. Symbolizes the path of curse manipulation.",
+        "howToObtain": "Defeat 1000 Cursed Spirits",
+        "stats": {
+            "Curse Absorption": "+25%",
+            "CE Manipulation": "+20%"
+        },
+        "image": "/images/clans/soul-manipulation.png"
+    },
+    {
+        "id": "mahito-stitched-outfit",
+        "name": "Soul Stitched Outfit",
+        "rarity": "Legendary",
+        "description": "An outfit that appears sewn together from different souls. Disturbing yet powerful.",
+        "howToObtain": "Master Idle Transfiguration technique",
+        "stats": {
+            "Soul DMG": "+20%",
+            "Shape Shift CD": "-15%"
+        },
+        "image": "/images/clans/soul-manipulation.png"
+    },
+    {
+        "id": "choso-blood-coat",
+        "name": "Death Painting Coat",
+        "rarity": "Legendary",
+        "description": "Choso's signature coat with blood-red accents. For those who fight for family above all else.",
+        "howToObtain": "Complete Death Painting Arc",
+        "stats": {
+            "Blood DMG": "+20%",
+            "Brother Bond": "+100%"
+        },
+        "image": "/images/clans/blood-manipulation.png"
+    },
+    {
+        "id": "uraume-frost-robe",
+        "name": "Frost Servant Robe",
+        "rarity": "Legendary",
+        "description": "Uraume's icy ceremonial robes. The fabric stays perpetually cold and enhances ice techniques.",
+        "howToObtain": "Serve Sukuna's Will (Special Quest)",
+        "stats": {
+            "Ice DMG": "+20%",
+            "Freeze Duration": "+2s"
+        },
+        "image": "/images/clans/cryokinesis.png"
+    },
+    {
+        "id": "kenjaku-binding-suit",
+        "name": "Brain Binding Suit",
+        "rarity": "Special Grade",
+        "description": "Mysterious attire worn across millennia. The stitched head design is purely cosmetic... probably.",
+        "howToObtain": "Discover the Hidden Truth",
+        "stats": {
+            "Body Swap": "Enabled",
+            "Technique Copy": "+10%"
+        },
+        "image": "/images/clans/construction.png"
+    },
+    {
+        "id": "jogo-volcanic-armor",
+        "name": "Volcanic Spirit Armor",
+        "rarity": "Legendary",
+        "description": "Armor forged from cooled magma. Provides excellent protection while boosting fire abilities.",
+        "howToObtain": "Absorb Jogo's power after defeat",
+        "stats": {
+            "Fire DMG": "+25%",
+            "Heat Immunity": "100%"
+        },
+        "image": "/images/clans/volcano.png"
+    },
+    {
+        "id": "dagon-ocean-garb",
+        "name": "Ocean Domain Garb",
+        "rarity": "Legendary",
+        "description": "Flowing garments that seem to move like water. Enhances all water-based techniques.",
+        "howToObtain": "Clear Horizon of the Captivating Skandha",
+        "stats": {
+            "Water DMG": "+20%",
+            "Shikigami Summon Speed": "+25%"
+        },
+        "image": "/images/clans/hydrokinesis.png"
+    },
+    {
+        "id": "higuruma-lawyer-suit",
+        "name": "Deadly Sentencing Suit",
+        "rarity": "Legendary",
+        "description": "Higuruma's formal courtroom attire. Justice will be served, one way or another.",
+        "howToObtain": "Win 50 Domain Battles",
+        "stats": {
+            "Confiscation Success": "+20%",
+            "Gavel DMG": "+15%"
+        },
+        "image": "/images/clans/gambler.png"
+    },
+    {
+        "id": "festival-yukata",
+        "name": "Summer Festival Yukata",
+        "rarity": "Rare",
+        "description": "Traditional summer festival wear. A rare peaceful moment between battles.",
+        "howToObtain": "Participate in Summer Event",
+        "stats": {
+            "Charm": "+20%",
+            "Festival Bonus": "+50%"
+        },
+        "image": "/images/clans/straw-doll.png"
+    },
+    {
+        "id": "mission-tactical-gear",
+        "name": "S-Rank Mission Gear",
+        "rarity": "Legendary",
+        "description": "Professional tactical equipment for dangerous missions. Every pocket has a purpose.",
+        "howToObtain": "Complete 50 S-Rank Missions",
+        "stats": {
+            "Mission Rewards": "+20%",
+            "Stealth": "+15%"
+        },
+        "image": "/images/tools/inverted-spear.png"
+    },
+    {
+        "id": "shibuya-survivor-outfit",
+        "name": "Shibuya Survivor Outfit",
+        "rarity": "Special Grade",
+        "description": "Battle-worn attire from the Shibuya Incident. A testament to survival against impossible odds.",
+        "howToObtain": "Complete Shibuya Incident Arc",
+        "stats": {
+            "All Stats": "+10%",
+            "Near-Death Buff": "+30%"
+        },
+        "image": "/images/awakenings/domain-expansion.png"
+    },
+    {
+        "id": "culling-game-uniform",
+        "name": "Culling Game Player Uniform",
+        "rarity": "Legendary",
+        "description": "Standard attire for Culling Game participants. Marked with your current point total.",
+        "howToObtain": "Enter the Culling Game event",
+        "stats": {
+            "Point Gain": "+15%",
+            "Colony Buff": "+20%"
+        },
+        "image": "/images/traits/dense.png"
+    },
+    {
+        "id": "ancient-sorcerer-garb",
+        "name": "Ancient Sorcerer Garb",
+        "rarity": "Special Grade",
+        "description": "Robes from the age when sorcerers ruled Japan. Carries the weight of a thousand years.",
+        "howToObtain": "Awaken as Incarnated Sorcerer",
+        "stats": {
+            "Technique Mastery": "+25%",
+            "CE Pool": "+30%"
+        },
+        "image": "/images/clans/sukuna.png"
     }
 ]
